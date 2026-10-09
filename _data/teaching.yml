@@ -25,8 +25,6 @@
 - course: Natural Language Processing
   institution: AIT
   links:
-  - label: Course Page
-    url: http://www.chaklam.com/nlp
   - label: Slides
     url: https://drive.google.com/drive/folders/14x9_-Y_aWysPIZFLaVrZE2ngy2h_beJj?usp=sharing
   - label: Github
@@ -36,8 +34,6 @@
 - course: Deep Learning
   institution: AIT
   links:
-  - label: Course Page
-    url: http://www.chaklam.com/deep-learning
   - label: Slides
     url: https://drive.google.com/drive/folders/1iA1ezVmsB5qZpEXEV3NEPFhLwoSDQz2Q?usp=sharing
   - label: Github
