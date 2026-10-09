@@ -1,0 +1,29 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ruby / Bundler (local setup)
+.ruby-version
+Gemfile
+Gemfile.lock
+.bundle/
+vendor/
+*.gem
+
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
