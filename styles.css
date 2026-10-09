@@ -43,22 +43,15 @@
 @media(max-width:740px){.record-grants,.record-section#grants .record-head{grid-template-columns:105px minmax(0,1fr)}.record-grants .role{font-weight:700;color:#174d88}.cv-row,.cv-section#research .cv-row{grid-template-columns:1fr;gap:3px}.cv-head{display:none}}
 
 /* Approved section formats */
-.standalone{max-width:880px;margin:32px auto 80px}.pub-entry{padding:8px 0;border-bottom:1px solid #edf0f3;font-size:13px}.teaching-list{list-style:none;padding:0!important}.teaching-head,.teaching-row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(100px,.6fr);gap:15px;padding:9px 7px;border-bottom:1px solid #e6ebf0;margin:0!important;font-size:13px}.teaching-head{font-size:11px;font-weight:700;text-transform:uppercase;background:#f5f8fc;color:#657689}.teaching-institution{color:#4c5d6d}.record-collaboration,.record-section#collaboration .record-head{grid-template-columns:105px minmax(0,1.6fr) minmax(105px,.85fr)}#service h3{font:700 16px Georgia,serif;color:#174d88;margin:20px 0 5px}#service .service-group{margin-top:0}.post-index{list-style:none;padding:0!important}.post-index li{display:grid;grid-template-columns:110px 1fr;gap:20px;padding:12px 0;border-bottom:1px solid #e6ebf0}.post-index time{color:#617184;font-size:12px}.blog-article{font-size:16px;line-height:1.8}.blog-article h2{margin-top:30px}
+.standalone{max-width:880px;margin:32px auto 80px}.pub-entry{padding:8px 0;border-bottom:1px solid #edf0f3;font-size:13px}.teaching-list{list-style:none;padding:0!important}.teaching-head,.teaching-row{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:15px;padding:9px 7px;border-bottom:1px solid #e6ebf0;margin:0!important;font-size:13px;align-items:start}.teaching-head{font-size:11px;font-weight:700;text-transform:uppercase;background:#f5f8fc;color:#657689}.teaching-institution{color:#4c5d6d}.record-collaboration,.record-section#collaboration .record-head{grid-template-columns:105px minmax(0,1.6fr) minmax(105px,.85fr)}#service h3{font:700 16px Georgia,serif;color:#174d88;margin:20px 0 5px}#service .service-group{margin-top:0}.post-index{list-style:none;padding:0!important}.post-index li{display:grid;grid-template-columns:110px 1fr;gap:20px;padding:12px 0;border-bottom:1px solid #e6ebf0}.post-index time{color:#617184;font-size:12px}.blog-article{font-size:16px;line-height:1.8}.blog-article h2{margin-top:30px}
 @media(max-width:740px){.record-collaboration,.record-section#collaboration .record-head{grid-template-columns:105px 1fr}.teaching-head{display:none}.teaching-row{grid-template-columns:1fr;gap:2px}.post-index li{grid-template-columns:85px 1fr}}
 
-/* Course and institution are independent grid cells */
-.teaching-row{display:grid!important;grid-template-columns:minmax(0,1fr) 110px!important;align-items:start;list-style:none!important;}
 .teaching-course{min-width:0;overflow-wrap:anywhere;line-height:1.6}
-.teaching-institution{text-align:left;white-space:nowrap}
-@media(max-width:600px){.teaching-row{grid-template-columns:minmax(0,1fr) 54px!important;gap:8px!important}.teaching-course{font-size:13px}}
+.teaching-institution{text-align:left;white-space:nowrap;color:#4c5d6d}
 .blog-article img{max-width:100%;height:auto}.blog-article table{display:block;max-width:100%;overflow-x:auto}.blog-article{overflow-wrap:anywhere}
 .article-archive{padding-left:20px}.article-archive li{padding:7px 0;border-bottom:1px solid #e8edf2}
 
-/* Jekyll migration: stable two-column course layout */
-.teaching-list .teaching-row{display:grid;grid-template-columns:minmax(0,1fr) 7rem;gap:1rem;align-items:start}
-.teaching-course{min-width:0;overflow-wrap:anywhere}.course-resources{font-size:.92em}.teaching-institution{text-align:left;white-space:nowrap}
-@media(max-width:640px){.teaching-list .teaching-row{grid-template-columns:minmax(0,1fr) 3rem;gap:.5rem}}
-
+.course-resources{font-size:.92em}
 .sidebar-blogs ul {
   padding-left: 16px;
   margin-left: 0;
