@@ -1,0 +1,51 @@
+- course: Data Structure and Algorithms
+  institution: AIT
+  links:
+  - label: Slides
+    url: https://drive.google.com/drive/folders/15czYklbgJr76AWh3DbKGRvZMZuZeROc4?usp=sharing
+- course: Software Architecture Design
+  institution: AIT
+  links:
+  - label: Slides
+    url: https://drive.google.com/drive/folders/1g6sSkEBAjECSipNeIvUHXIzF2nwuNcYU?usp=sharing
+- course: Programming for Data Science
+  institution: AIT
+  links:
+  - label: Github
+    url: https://github.com/chaklam-silpasuwanchai/Python-for-DS-AI
+- course: Machine Learning
+  institution: AIT
+  links:
+  - label: Slides,
+    url: https://drive.google.com/drive/folders/1jCy4CC86Cp2B7E3nMrHqFBIzbH-qJ7LA?usp=sharing
+  - label: Github
+    url: https://github.com/chaklam-silpasuwanchai/Machine-Learning
+  - label: Youtube
+    url: https://www.youtube.com/playlist?list=PLqL-7eLmqd9ViCe07M6WiCVyaWJRc_plF
+- course: Natural Language Processing
+  institution: AIT
+  links:
+  - label: Course Page
+    url: http://www.chaklam.com/nlp
+  - label: Slides
+    url: https://drive.google.com/drive/folders/14x9_-Y_aWysPIZFLaVrZE2ngy2h_beJj?usp=sharing
+  - label: Github
+    url: https://github.com/chaklam-silpasuwanchai/Natural-Language-Processing
+  - label: Youtube
+    url: https://www.youtube.com/playlist?list=PLqL-7eLmqd9V3faivSAST76YQClS44dSz
+- course: Deep Learning
+  institution: AIT
+  links:
+  - label: Course Page
+    url: http://www.chaklam.com/deep-learning
+  - label: Slides
+    url: https://drive.google.com/drive/folders/1iA1ezVmsB5qZpEXEV3NEPFhLwoSDQz2Q?usp=sharing
+  - label: Github
+    url: https://github.com/chaklam-silpasuwanchai/Python-for-Deep-Learning
+- course: Human Computer Interaction
+  institution: AIT
+  links:
+  - label: Human Computer Interaction
+    url: https://drive.google.com/drive/folders/1cHWrCKnRc1_xkWr_IgW4X-iBqm1hsnhP?usp=sharing
+  - label: TEAL Moodle
+    url: https://teal2o.cs.ait.ac.th
