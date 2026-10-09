@@ -1,1 +1,0 @@
-Two-column date + description layout applied to dated News, Invited Talks, Research Grants, and Academic Services entries. Dates and descriptions retain original text and links. Mobile layout adapts. Original pages and assets included. Open index.html to preview.
