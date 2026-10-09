@@ -58,3 +58,8 @@
 .teaching-list .teaching-row{display:grid;grid-template-columns:minmax(0,1fr) 7rem;gap:1rem;align-items:start}
 .teaching-course{min-width:0;overflow-wrap:anywhere}.course-resources{font-size:.92em}.teaching-institution{text-align:left;white-space:nowrap}
 @media(max-width:640px){.teaching-list .teaching-row{grid-template-columns:minmax(0,1fr) 3rem;gap:.5rem}}
+
+.sidebar-blogs ul {
+  padding-left: 16px;
+  margin-left: 0;
+}

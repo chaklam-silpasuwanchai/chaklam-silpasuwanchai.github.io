@@ -16,7 +16,7 @@
 - course: Machine Learning
   institution: AIT
   links:
-  - label: Slides,
+  - label: Slides
     url: https://drive.google.com/drive/folders/1jCy4CC86Cp2B7E3nMrHqFBIzbH-qJ7LA?usp=sharing
   - label: Github
     url: https://github.com/chaklam-silpasuwanchai/Machine-Learning
@@ -45,7 +45,5 @@
 - course: Human Computer Interaction
   institution: AIT
   links:
-  - label: Human Computer Interaction
+  - label: Sliides
     url: https://drive.google.com/drive/folders/1cHWrCKnRc1_xkWr_IgW4X-iBqm1hsnhP?usp=sharing
-  - label: TEAL Moodle
-    url: https://teal2o.cs.ait.ac.th

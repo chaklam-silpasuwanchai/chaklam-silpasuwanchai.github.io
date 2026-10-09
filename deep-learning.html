@@ -1,401 +1,270 @@
-<!DOCTYPE html>
-<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  <head>
-    <meta charset="utf-8" />
-<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="canonical" href="http://www.chaklam.com/deep-learning" />
-<link rel="shortlink" href="http://www.chaklam.com/node/44" />
-<link rel="revision" href="http://www.chaklam.com/deep-learning" />
-
-    <title>Chaklam Silpasuwanchai</title>
-    <link rel="stylesheet" media="all" href="sites/default/files/css/css_OIzBRxciYG74p5zSuRGfzMOMmxX2w4G6eJ9zFXXGLgE.css" />
-<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
-<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw==" crossorigin="anonymous" />
-
-    
-<!--[if lte IE 8]>
-<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
-<![endif]-->
-
-  </head>
-  <body class="exclude-node-title path-node page-node-type-page has-glyphicons">
-    <a href="deep-learning.html#main-content" class="visually-hidden focusable skip-link">
-      Skip to main content
-    </a>
-    
-      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-              <header class="navbar navbar-default container" id="navbar" role="banner">
-            <div class="navbar-header">
-          <div class="region region-navigation">
-            <a class="name navbar-brand" href="index.html" title="Home" rel="home">Chaklam Silpasuwanchai</a>
-    
-  </div>
-
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-              </div>
-
-                    <div id="navbar-collapse" class="navbar-collapse collapse">
-            <div class="region region-navigation-collapsible">
-    <nav role="navigation" aria-labelledby="block-bootstrap-main-menu-menu" id="block-bootstrap-main-menu">
-            <h2 class="sr-only" id="block-bootstrap-main-menu-menu">Main navigation</h2>
-
-      
-      <ul class="menu menu--main nav navbar-nav">
-                      <li class="first">
-                                        <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Home</a>
-              </li>
-                      <li class="expanded dropdown active active-trail">
-                                                                    <a href="deep-learning.html" class="dropdown-toggle active-trail" data-toggle="dropdown">Course <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                      <li class="active active-trail first">
-                                        <a href="deep-learning.html" class="active-trail is-active" data-drupal-link-system-path="node/44">AT82.10 Deep Learning</a>
-              </li>
-                      <li class="last">
-                                        <a href="nlp.html" data-drupal-link-system-path="node/45">AT82.05 Natural Language Processing</a>
-              </li>
-        </ul>
-  
-              </li>
-                      <li class="last">
-                                        <a href="https://ait-brainlab.github.io">AIT Brain Lab</a>
-              </li>
-        </ul>
-  
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Deep Learning (AT82.10) course information, schedule, and resources.">
+  <title>Deep Learning — Chaklam Silpasuwanchai</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .course-content { line-height: 1.65; }
+    .course-content h2 { margin-top: 1.7rem; }
+    .course-content p, .course-content ul, .course-content ol { margin-bottom: 1rem; }
+    .table-scroll { width: 100%; overflow-x: auto; margin: 1.25rem 0; }
+    .course-table { border-collapse: collapse; width: 100%; min-width: 580px; font-size: .9rem; }
+    .course-table th, .course-table td {
+      border: 1px solid #d8dee5; padding: .65rem .75rem;
+      text-align: left; vertical-align: top; overflow-wrap: anywhere;
+    }
+    .course-table tr:first-child { background: #f3f6f9; font-weight: 600; }
+    .course-table tr:nth-child(even) { background: #fafbfc; }
+    .course-content a { overflow-wrap: anywhere; }
+    .course-content > p:first-of-type { color: #596579; }
+    @media (max-width: 680px) { .course-table { font-size: .82rem; } }
+  </style>
+</head>
+<body>
+<div class="site">
+  <header>
+    <h1>Chaklam Silpasuwanchai</h1>
+    <div class="subtitle">Asian Institute of Technology · Research, Teaching &amp; Academic Activities</div>
+  </header>
+  <nav aria-label="Main navigation">
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#grants">Grants</a>
+      <a href="index.html#teaching">Teaching</a>
+      <a href="index.html#talks">Talks</a>
+      <a href="index.html#service">Academic Services</a>
+      <a href="index.html#collaboration">Industry</a>
+      <a href="index.html#awards">Awards</a>
+      <a href="blog.html">Blog</a>
   </nav>
+  <main class="main standalone course-content" id="main-content">
+    <p><a href="index.html#teaching">← Back to Teaching</a></p>
+    <h1>Deep Learning</h1>
 
-  </div>
-
-        </div>
-                </header>
-  
-  <div role="main" class="main-container container js-quickedit-main-content">
-    <div class="row">
-
-                              <div class="col-sm-12" role="heading">
-              <div class="region region-header">
-      
-<div data-drupal-messages-fallback class="hidden"></div>
-    <h1 class="page-header"></h1>
-
-
-  </div>
-
-          </div>
-              
-            
-                  <section class="col-sm-12">
-
-                
-                                      
-                  
-                          <a id="main-content"></a>
-            <div class="region region-content">
-      <article data-history-node-id="44" role="article" about="/deep-learning" typeof="schema:WebPage" class="page full clearfix">
-
-  
-      <span property="schema:name" content="Deep Learning Course" class="hidden"></span>
-
-
-  
-  <div class="content">
-    
-            <div property="schema:text" class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style type="text/css">
-<!--/*--><![CDATA[/* ><!--*/
-table {
-    font-size: 12px;
-  }
-  th, td {
-    font-size: 12px;
-  }
-
-/*--><!]]>*/
-</style>
-<h1><strong>Deep Learning</strong></h1>
 
 <p>(a.k.a. Recent Trends of Machine Learning)</p>
-
-<p><strong>Course Number</strong>: AT82.10<br />
-<strong>Credits</strong>: 3<br />
-<strong>Links</strong>:  <a href="https://github.com/chaklam-silpasuwanchai/Python-for-Deep-Learning">Github</a><br />
+<p><strong>Course Number</strong>: AT82.10<br/>
+<strong>Credits</strong>: 3<br/>
+<strong>Links</strong>:  <a href="https://github.com/chaklam-silpasuwanchai/Python-for-Deep-Learning">Github</a><br/>
 <strong>Similar Course (recommended)</strong>:  <a href="https://cs231n.stanford.edu">Stanford CS231n</a>, <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A">Berkeley CS182</a></p>
-
-<p><strong>Course Description</strong><br />
+<p><strong>Course Description</strong><br/>
 This advanced course explores cutting-edge <strong>deep learning architectures and techniques</strong>. Students will gain both theoretical understanding and practical experience with state-of-the-art models including CNNs, Vision Transformers, Object Segmentation, Self-Supervised Learning, GANs, Diffusion Models, Graph Neural Networks, Speech Recognition and Reinforcement Learning approaches. Through hands-on projects, students will implement and experiment with these architectures to solve real-world problems.</p>
-
 <p><strong>Instructor Information</strong></p>
-
-<table border="1" cellpadding="1" cellspacing="1">
-	<tbody>
-		<tr>
-			<td><strong>Instructor</strong></td>
-			<td>Chaklam Silpasuwanchai</td>
-		</tr>
-		<tr>
-			<td><strong>Office</strong></td>
-			<td>CS101</td>
-		</tr>
-		<tr>
-			<td><strong>Email</strong></td>
-			<td>chaklam@ait.asia</td>
-		</tr>
-	</tbody>
-</table>
-
-<p><br />
-<strong>Prerequisites</strong><br />
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Instructor</strong></td>
+<td>Chaklam Silpasuwanchai</td>
+</tr>
+<tr>
+<td><strong>Office</strong></td>
+<td>CS101</td>
+</tr>
+<tr>
+<td><strong>Email</strong></td>
+<td>chaklam@ait.asia</td>
+</tr>
+</tbody>
+</table></div>
+<p><br/>
+<strong>Prerequisites</strong><br/>
 There are no prerequisites but is recommended to take these courses prior:</p>
-
 <ul>
-	<li>AT82.03 Machine Learning</li>
-	<li>AT82.01 Computer Programming for Data Science and Artificial Intelligence</li>
+<li>AT82.03 Machine Learning</li>
+<li>AT82.01 Computer Programming for Data Science and Artificial Intelligence</li>
 </ul>
-
-<p><strong>Course Objectives</strong><br />
+<p><strong>Course Objectives</strong><br/>
 By the end of this course, students will be able to: </p>
-
 <ol>
-	<li>Design, train, test, and deploy advanced <strong>deep learning techniques</strong> including convolutional neural networks (CNNs),  vision transformer, object segmentation approaches,  self-supervised learning approaches,  generative adversarial networks, diffusion models.</li>
-	<li>Develop an <strong>end-to-end deep learning project</strong> incorporating multiple techniques covered in the course, demonstrating ability to move from research concepts to practical applications</li>
+<li>Design, train, test, and deploy advanced <strong>deep learning techniques</strong> including convolutional neural networks (CNNs),  vision transformer, object segmentation approaches,  self-supervised learning approaches,  generative adversarial networks, diffusion models.</li>
+<li>Develop an <strong>end-to-end deep learning project</strong> incorporating multiple techniques covered in the course, demonstrating ability to move from research concepts to practical applications</li>
 </ol>
-
 <p><strong>Recommended Textbook(s)</strong></p>
-
 <ol>
-	<li>Deep Learning: Foundations and Concepts,  Christopher M. Bishop and Hugh Bishop, 2024 Edition, 978-3031454677</li>
-	<li>Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville, 2016, 978-0262035613</li>
+<li>Deep Learning: Foundations and Concepts,  Christopher M. Bishop and Hugh Bishop, 2024 Edition, 978-3031454677</li>
+<li>Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville, 2016, 978-0262035613</li>
 </ol>
-
 <p><strong>Grading</strong></p>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width: 262.6px;">
-	<tbody>
-		<tr>
-			<td style="width: 134px;"><strong>Component</strong></td>
-			<td style="width: 114px;"><strong>Percentage</strong></td>
-		</tr>
-		<tr>
-			<td style="width: 134px;">Final Exam</td>
-			<td style="width: 114px;">30</td>
-		</tr>
-		<tr>
-			<td style="width: 134px;">Project</td>
-			<td style="width: 114px;">40</td>
-		</tr>
-		<tr>
-			<td style="width: 134px;">Assignments</td>
-			<td style="width: 114px;">30</td>
-		</tr>
-	</tbody>
-</table>
-
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Component</strong></td>
+<td><strong>Percentage</strong></td>
+</tr>
+<tr>
+<td>Final Exam</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Assignments</td>
+<td>30</td>
+</tr>
+</tbody>
+</table></div>
 <p>Grading scale is based on normal distribution.</p>
-
 <p><strong>Assignments</strong></p>
-
 <ul>
-	<li><strong>Coding</strong> Assignments</li>
+<li><strong>Coding</strong> Assignments</li>
 </ul>
-
 <p><strong>Projects</strong></p>
-
 <ul>
-	<li><strong>Phase 1: Literature Review</strong>:  Each of the team member must select 5 papers (one can be a review/survey) related to your domain and task.<strong> </strong>For each team create a table. (No Presentation or Report;  Just submit the table)</li>
-	<li><strong>Phase 2: Midway Report</strong>: Prepare a (1) report in A* conference format, a (2) presentation submitted in pdf, and (3) GitHub link.</li>
-	<li><strong>Phase 3: Final Report</strong>:  Prepare a (1) report in A* conference format, a (2) presentation submitted in pdf, and (3) GitHub link.</li>
+<li><strong>Phase 1: Literature Review</strong>:  Each of the team member must select 5 papers (one can be a review/survey) related to your domain and task.<strong> </strong>For each team create a table. (No Presentation or Report;  Just submit the table)</li>
+<li><strong>Phase 2: Midway Report</strong>: Prepare a (1) report in A* conference format, a (2) presentation submitted in pdf, and (3) GitHub link.</li>
+<li><strong>Phase 3: Final Report</strong>:  Prepare a (1) report in A* conference format, a (2) presentation submitted in pdf, and (3) GitHub link.</li>
 </ul>
-
 <p><strong>Course Schedule</strong></p>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width: 831.6px;">
-	<tbody>
-		<tr>
-			<td style="width: 51px;"><strong>Weeks</strong></td>
-			<td style="width: 159px;"><strong>Topic</strong></td>
-			<td style="width: 240px;"><strong>Readings</strong></td>
-			<td style="width: 358px;"><strong>Extra Resources</strong></td>
-			<td style="width: 358px;"><strong>Tutorials</strong></td>
-			<td style="width: 358px;"><strong>Coding Assignments</strong></td>
-			<td style="width: 358px;"><strong>Project Tasks</strong></td>
-		</tr>
-		<tr>
-			<td style="width: 51px;">1</td>
-			<td style="width: 159px;"><strong>Representation Learning:  CNN and Transformer</strong></td>
-			<td style="width: 240px;"><a href="https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf" target="_blank">AlexNet</a>, <a href="https://arxiv.org/abs/1409.4842" target="_blank">InceptionNet</a>, <a href="https://arxiv.org/abs/1512.03385" target="_blank">ResNet</a>, <a href="https://arxiv.org/abs/1905.11946">EfficientNet</a>, <a href="https://arxiv.org/abs/2010.11929" target="_blank">Vision Transformer</a>, <a href="https://arxiv.org/abs/2103.14030" target="_blank">Swin Transformer</a></td>
-			<td style="width: 358px;"><a href="https://cs231n.github.io/convolutional-networks/" target="_blank">CS231n CNN Notes</a>, <a href="https://poloclub.github.io/cnn-explainer/" target="_blank">CNN Explainer</a>, <a href="https://github.com/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet50-mnist.ipynb" target="_blank">Lots of code</a>, <a href="https://distill.pub/2017/feature-visualization/" target="_blank">Feature Visualization</a>, <a href="https://github.com/lucidrains/vit-pytorch" target="_blank">ViT PyTorch Implementation</a>, <a href="https://huggingface.co/docs/transformers/model_doc/vit" target="_blank">HuggingFace ViT Guide</a>, <a href="https://theaisummer.com/vision-transformer/" target="_blank">Vision Transformer Explained</a>, <a href="https://github.com/microsoft/Swin-Transformer" target="_blank">Official Swin</a>, <a href="https://github.com/facebookresearch/deit" target="_blank">DeiT</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">A1</td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;">2</td>
-			<td style="width: 159px;"><strong>Segmentation: Two-stage, Single-stage, Instance</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/1311.2524" target="_blank">R-CNN</a>, <a href="https://arxiv.org/abs/1504.08083" target="_blank">Fast R-CNN</a>, <a href="https://arxiv.org/abs/1506.01497" target="_blank">Faster R-CNN</a>, <a href="https://arxiv.org/abs/1506.02640" target="_blank">YOLO v1</a>, <a href="https://arxiv.org/abs/1804.02767" target="_blank">YOLO v3</a>, <a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a>, <a href="https://arxiv.org/abs/1505.04597" target="_blank">U-Net</a></td>
-			<td style="width: 358px;"><a href="https://github.com/pytorch/vision/tree/main/torchvision/models/detection" target="_blank">Torchvision Detection Models</a>, <a href="https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html" target="_blank">Object Detection Tutorial</a>, <a href="https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e" target="_blank">RCNN Family Explained</a>, <a href="https://github.com/open-mmlab/mmdetection" target="_blank">MMDetection</a>, <a href="https://github.com/facebookresearch/detectron2" target="_blank">Detectron</a>, <a href="https://lilianweng.github.io/posts/2017-12-31-object-recognition-part-3/" target="_blank">Very nice blog by Lilian</a>, <a href="https://github.com/ultralytics/yolov5" target="_blank">YOLOv5 Implementation</a>, <a href="https://docs.ultralytics.com/" target="_blank">YOLO official guide</a>, <a href="https://blog.roboflow.com/guide-to-yolo-models/" target="_blank">Roboflow YOLO guide</a>, <a href="https://github.com/matterport/Mask_RCNN" target="_blank">Mask R-CNN Implementation</a>, <a href="https://github.com/milesial/Pytorch-UNet" target="_blank">PyTorch U-Net Implementation</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">A2</td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;">3</td>
-			<td style="width: 159px;"><strong>Self-Supervised Learning: Contrastive Learning, Masking and Knowledge Distillation</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/2002.05709" target="_blank">SimCLR</a>, <a href="https://arxiv.org/abs/1911.05722" target="_blank">MoCo</a>, <a href="https://arxiv.org/abs/2006.07733" target="_blank">BYOL</a>, <a href="https://arxiv.org/abs/2103.03230" target="_blank">BarlowTwins</a>, <a href="https://arxiv.org/abs/2006.09882" target="_blank">SwaV</a>, <a href="https://arxiv.org/abs/2111.06377" target="_blank">Masked Autoencoders</a>, <a href="https://arxiv.org/abs/2111.09886" target="_blank">SimMIM</a>, <a href="https://arxiv.org/abs/2104.14294" target="_blank">DINO</a></td>
-			<td style="width: 358px;"><a href="https://github.com/google-research/simclr" target="_blank">SimCLR</a>, <a href="https://github.com/facebookresearch/moco-v3" target="_blank">MoCo</a>, <a href="https://github.com/facebookresearch/vissl" target="_blank">Facebook SSL Library</a>, <a href="https://github.com/deepmind/deepmind-research/tree/master/byol" target="_blank">BYOL</a>, <a href="https://github.com/facebookresearch/barlowtwins" target="_blank">BarlowTwins</a>, <a href="https://github.com/facebookresearch/swav" target="_blank">SwAV</a>, <a href="https://github.com/facebookresearch/mae" target="_blank">MAE</a>, <a href="https://github.com/facebookresearch/dino" target="_blank">DINO</a>, <a href="https://ai.facebook.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/" target="_blank">DINO Blog Post</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">A3</td>
-			<td style="width: 358px;">Phase 1: Project Proposal / Literature Review</td>
-		</tr>
-		<tr>
-			<td style="width: 51px;">4</td>
-			<td style="width: 159px;"><strong>Generative Models:  GANs and Diffusion</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/1406.2661" target="_blank">GAN</a>, <a href="https://arxiv.org/abs/1606.03498" target="_blank">ImprovedGAN</a>, <a href="https://arxiv.org/abs/1511.06434" target="_blank">DCGAN</a>, <a href="https://arxiv.org/abs/1611.07004" target="_blank">Pix2Pix</a>, <a href="https://arxiv.org/abs/1411.1784" target="_blank">ConditionalGAN</a>, <a href="https://arxiv.org/abs/1703.10593" target="_blank">CycleGAN</a>, <a href="https://arxiv.org/abs/2006.11239" target="_blank">Original Diffusion</a>, <a href="https://arxiv.org/abs/2102.09672" target="_blank">Improved Diffusion</a>, <a href="https://arxiv.org/abs/2105.05233" target="_blank">Beats GAN</a>, <a href="https://arxiv.org/abs/2112.10752" target="_blank">Latent Diffusion</a></td>
-			<td style="width: 358px;"><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix" target="_blank">CycleGAN &amp; Pix2Pix</a>, <a href="https://arxiv.org/abs/1809.11096" target="_blank">BigGAN</a>, <a href="https://github.com/soumith/ganhacks" target="_blank">Gan Hacks</a>, <a href="https://github.com/lucidrains/stylegan2-pytorch" target="_blank">StyleGan</a>, <a href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN" target="_blank">StudioGAN</a>, <a href="https://poloclub.github.io/ganlab/" target="_blank">GAN Explainer</a>, <a href="https://github.com/lucidrains/denoising-diffusion-pytorch" target="_blank">Vanilla Diffusion</a>, <a href="https://github.com/openai/improved-diffusion" target="_blank">Improved Diffusion</a>, <a href="https://github.com/CompVis/stable-diffusion" target="_blank">Stable Diffusion</a>, <a href="https://huggingface.co/blog/stable_diffusion" target="_blank">HuggingFace Guide</a>, <a href="https://lilianweng.github.io/posts/2021-07-11-diffusion-models/" target="_blank">Super Nice Overview by Lilian</a>, <a href="https://github.com/CompVis/latent-diffusion" target="_blank">Latent Diffusion</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">A4</td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;">5</td>
-			<td style="width: 159px;"><strong>Graph Neural Network</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/1609.02907" target="_blank">GCN</a>, <a href="https://arxiv.org/abs/1710.10903" target="_blank">GAT</a></td>
-			<td style="width: 358px;"><a href="https://distill.pub/2021/gnn-intro/" target="_blank">Nice Introduction</a>, <a href="https://pytorch-geometric.readthedocs.io/en/latest/" target="_blank">PyTorch Geometric Docs</a>, <a href="https://www.dgl.ai/guide/" target="_blank">DGL Framework Guide</a>, <a href="https://github.com/dsgiitr/graph_nets" target="_blank">Many Code</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">A5</td>
-			<td style="width: 358px;">Phase 2: Midway Report / Experiment Protocol (<em>Presentation &amp; Report</em>)</td>
-		</tr>
-		<tr>
-			<td style="width: 51px;"> </td>
-			<td style="width: 159px;">Final Exam</td>
-			<td style="width: 240px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;"> </td>
-			<td style="width: 159px;">Final Project</td>
-			<td style="width: 240px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;">Phase 3: Final Report (<em>Presentation &amp; Report</em>)</td>
-		</tr>
-		<tr>
-			<td style="width: 51px;"> </td>
-			<td style="width: 159px;">Appendix:  <strong>Reinforcement Learning</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/1312.5602" target="_blank">Atari paper</a>, <a href="https://arxiv.org/pdf/1509.02971" target="_blank">continuous control</a>, <a href="https://arxiv.org/abs/1509.06461" target="_blank">double Q-learning</a>, <a href="https://arxiv.org/abs/1707.06347" target="_blank">PPO</a></td>
-			<td style="width: 358px;"><a href="https://spinningup.openai.com/en/latest/" target="_blank">OpenAI Spinning Up</a>, <a href="https://gymnasium.farama.org/" target="_blank">Gymnasium Documentation</a>, <a href="https://stable-baselines3.readthedocs.io/en/master/" target="_blank">Stable Baselines3</a>, <a href="https://cs224r.stanford.edu" target="_blank">Stanford course</a>,  <a href="http://rail.eecs.berkeley.edu/deeprlcourse/">Berkeley course</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;"> </td>
-			<td style="width: 159px;">Appendix:  <strong>Semi-Supervised Learning</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/1703.01780" target="_blank">MeanTeacher</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.html" target="_blank">Noisy Student</a>, <a href="https://arxiv.org/abs/2001.07685" target="_blank">FixMatch</a>, <a href="https://arxiv.org/abs/2110.08263" target="_blank">FlexMatch</a></td>
-			<td style="width: 358px;"><a href="https://github.com/google-research/fixmatch" target="_blank">FixMatch</a>, <a href="https://github.com/CuriousAI/mean-teacher" target="_blank">Mean Teacher Code</a>, <a href="https://amitness.com/posts/semi-supervised-learning" target="_blank">A Very Nice Overview</a>, <a href="https://github.com/TorchSSL/TorchSSL" target="_blank">PyTorch library for SSL</a>, <a href="https://lilianweng.github.io/posts/2021-12-05-semi-supervised/" target="_blank">Another Nice Blog by Lilian</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-		</tr>
-		<tr>
-			<td style="width: 51px;"> </td>
-			<td style="width: 159px;">Appendix:  <strong>Multimodal Learning</strong></td>
-			<td style="width: 240px;"><a href="https://arxiv.org/abs/2103.00020" target="_blank">CLIP</a>, <a href="https://arxiv.org/abs/2102.03334" target="_blank">ViLT</a>, <a href="https://arxiv.org/abs/2004.00849" target="_blank">PixelBERT</a>, <a href="https://arxiv.org/abs/2204.14198" target="_blank">Flamingo</a>, <a href="https://arxiv.org/abs/2303.08774" target="_blank">GPT4</a></td>
-			<td style="width: 358px;"><a href="https://arxiv.org/abs/2111.02114" target="_blank">LAIO-400M</a>,  <a href="https://arxiv.org/abs/2311.16502" target="_blank">MMMU</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-tutorial/schedule/" target="_blank">Tutorial</a>,  <a href="https://cmu-mmml.github.io/spring2023/" target="_blank">CMU Multimodal Course</a></td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-			<td style="width: 358px;"> </td>
-		</tr>
-	</tbody>
-</table>
-
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Weeks</strong></td>
+<td><strong>Topic</strong></td>
+<td><strong>Readings</strong></td>
+<td><strong>Extra Resources</strong></td>
+<td><strong>Tutorials</strong></td>
+<td><strong>Coding Assignments</strong></td>
+<td><strong>Project Tasks</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>Representation Learning:  CNN and Transformer</strong></td>
+<td><a href="https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf" rel="noopener noreferrer" target="_blank">AlexNet</a>, <a href="https://arxiv.org/abs/1409.4842" rel="noopener noreferrer" target="_blank">InceptionNet</a>, <a href="https://arxiv.org/abs/1512.03385" rel="noopener noreferrer" target="_blank">ResNet</a>, <a href="https://arxiv.org/abs/1905.11946">EfficientNet</a>, <a href="https://arxiv.org/abs/2010.11929" rel="noopener noreferrer" target="_blank">Vision Transformer</a>, <a href="https://arxiv.org/abs/2103.14030" rel="noopener noreferrer" target="_blank">Swin Transformer</a></td>
+<td><a href="https://cs231n.github.io/convolutional-networks/" rel="noopener noreferrer" target="_blank">CS231n CNN Notes</a>, <a href="https://poloclub.github.io/cnn-explainer/" rel="noopener noreferrer" target="_blank">CNN Explainer</a>, <a href="https://github.com/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet50-mnist.ipynb" rel="noopener noreferrer" target="_blank">Lots of code</a>, <a href="https://distill.pub/2017/feature-visualization/" rel="noopener noreferrer" target="_blank">Feature Visualization</a>, <a href="https://github.com/lucidrains/vit-pytorch" rel="noopener noreferrer" target="_blank">ViT PyTorch Implementation</a>, <a href="https://huggingface.co/docs/transformers/model_doc/vit" rel="noopener noreferrer" target="_blank">HuggingFace ViT Guide</a>, <a href="https://theaisummer.com/vision-transformer/" rel="noopener noreferrer" target="_blank">Vision Transformer Explained</a>, <a href="https://github.com/microsoft/Swin-Transformer" rel="noopener noreferrer" target="_blank">Official Swin</a>, <a href="https://github.com/facebookresearch/deit" rel="noopener noreferrer" target="_blank">DeiT</a></td>
+<td> </td>
+<td>A1</td>
+<td> </td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Segmentation: Two-stage, Single-stage, Instance</strong></td>
+<td><a href="https://arxiv.org/abs/1311.2524" rel="noopener noreferrer" target="_blank">R-CNN</a>, <a href="https://arxiv.org/abs/1504.08083" rel="noopener noreferrer" target="_blank">Fast R-CNN</a>, <a href="https://arxiv.org/abs/1506.01497" rel="noopener noreferrer" target="_blank">Faster R-CNN</a>, <a href="https://arxiv.org/abs/1506.02640" rel="noopener noreferrer" target="_blank">YOLO v1</a>, <a href="https://arxiv.org/abs/1804.02767" rel="noopener noreferrer" target="_blank">YOLO v3</a>, <a href="https://arxiv.org/abs/1703.06870" rel="noopener noreferrer" target="_blank">Mask R-CNN</a>, <a href="https://arxiv.org/abs/1505.04597" rel="noopener noreferrer" target="_blank">U-Net</a></td>
+<td><a href="https://github.com/pytorch/vision/tree/main/torchvision/models/detection" rel="noopener noreferrer" target="_blank">Torchvision Detection Models</a>, <a href="https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html" rel="noopener noreferrer" target="_blank">Object Detection Tutorial</a>, <a href="https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e" rel="noopener noreferrer" target="_blank">RCNN Family Explained</a>, <a href="https://github.com/open-mmlab/mmdetection" rel="noopener noreferrer" target="_blank">MMDetection</a>, <a href="https://github.com/facebookresearch/detectron2" rel="noopener noreferrer" target="_blank">Detectron</a>, <a href="https://lilianweng.github.io/posts/2017-12-31-object-recognition-part-3/" rel="noopener noreferrer" target="_blank">Very nice blog by Lilian</a>, <a href="https://github.com/ultralytics/yolov5" rel="noopener noreferrer" target="_blank">YOLOv5 Implementation</a>, <a href="https://docs.ultralytics.com/" rel="noopener noreferrer" target="_blank">YOLO official guide</a>, <a href="https://blog.roboflow.com/guide-to-yolo-models/" rel="noopener noreferrer" target="_blank">Roboflow YOLO guide</a>, <a href="https://github.com/matterport/Mask_RCNN" rel="noopener noreferrer" target="_blank">Mask R-CNN Implementation</a>, <a href="https://github.com/milesial/Pytorch-UNet" rel="noopener noreferrer" target="_blank">PyTorch U-Net Implementation</a></td>
+<td> </td>
+<td>A2</td>
+<td> </td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Self-Supervised Learning: Contrastive Learning, Masking and Knowledge Distillation</strong></td>
+<td><a href="https://arxiv.org/abs/2002.05709" rel="noopener noreferrer" target="_blank">SimCLR</a>, <a href="https://arxiv.org/abs/1911.05722" rel="noopener noreferrer" target="_blank">MoCo</a>, <a href="https://arxiv.org/abs/2006.07733" rel="noopener noreferrer" target="_blank">BYOL</a>, <a href="https://arxiv.org/abs/2103.03230" rel="noopener noreferrer" target="_blank">BarlowTwins</a>, <a href="https://arxiv.org/abs/2006.09882" rel="noopener noreferrer" target="_blank">SwaV</a>, <a href="https://arxiv.org/abs/2111.06377" rel="noopener noreferrer" target="_blank">Masked Autoencoders</a>, <a href="https://arxiv.org/abs/2111.09886" rel="noopener noreferrer" target="_blank">SimMIM</a>, <a href="https://arxiv.org/abs/2104.14294" rel="noopener noreferrer" target="_blank">DINO</a></td>
+<td><a href="https://github.com/google-research/simclr" rel="noopener noreferrer" target="_blank">SimCLR</a>, <a href="https://github.com/facebookresearch/moco-v3" rel="noopener noreferrer" target="_blank">MoCo</a>, <a href="https://github.com/facebookresearch/vissl" rel="noopener noreferrer" target="_blank">Facebook SSL Library</a>, <a href="https://github.com/deepmind/deepmind-research/tree/master/byol" rel="noopener noreferrer" target="_blank">BYOL</a>, <a href="https://github.com/facebookresearch/barlowtwins" rel="noopener noreferrer" target="_blank">BarlowTwins</a>, <a href="https://github.com/facebookresearch/swav" rel="noopener noreferrer" target="_blank">SwAV</a>, <a href="https://github.com/facebookresearch/mae" rel="noopener noreferrer" target="_blank">MAE</a>, <a href="https://github.com/facebookresearch/dino" rel="noopener noreferrer" target="_blank">DINO</a>, <a href="https://ai.facebook.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/" rel="noopener noreferrer" target="_blank">DINO Blog Post</a></td>
+<td> </td>
+<td>A3</td>
+<td>Phase 1: Project Proposal / Literature Review</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Generative Models:  GANs and Diffusion</strong></td>
+<td><a href="https://arxiv.org/abs/1406.2661" rel="noopener noreferrer" target="_blank">GAN</a>, <a href="https://arxiv.org/abs/1606.03498" rel="noopener noreferrer" target="_blank">ImprovedGAN</a>, <a href="https://arxiv.org/abs/1511.06434" rel="noopener noreferrer" target="_blank">DCGAN</a>, <a href="https://arxiv.org/abs/1611.07004" rel="noopener noreferrer" target="_blank">Pix2Pix</a>, <a href="https://arxiv.org/abs/1411.1784" rel="noopener noreferrer" target="_blank">ConditionalGAN</a>, <a href="https://arxiv.org/abs/1703.10593" rel="noopener noreferrer" target="_blank">CycleGAN</a>, <a href="https://arxiv.org/abs/2006.11239" rel="noopener noreferrer" target="_blank">Original Diffusion</a>, <a href="https://arxiv.org/abs/2102.09672" rel="noopener noreferrer" target="_blank">Improved Diffusion</a>, <a href="https://arxiv.org/abs/2105.05233" rel="noopener noreferrer" target="_blank">Beats GAN</a>, <a href="https://arxiv.org/abs/2112.10752" rel="noopener noreferrer" target="_blank">Latent Diffusion</a></td>
+<td><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix" rel="noopener noreferrer" target="_blank">CycleGAN &amp; Pix2Pix</a>, <a href="https://arxiv.org/abs/1809.11096" rel="noopener noreferrer" target="_blank">BigGAN</a>, <a href="https://github.com/soumith/ganhacks" rel="noopener noreferrer" target="_blank">Gan Hacks</a>, <a href="https://github.com/lucidrains/stylegan2-pytorch" rel="noopener noreferrer" target="_blank">StyleGan</a>, <a href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN" rel="noopener noreferrer" target="_blank">StudioGAN</a>, <a href="https://poloclub.github.io/ganlab/" rel="noopener noreferrer" target="_blank">GAN Explainer</a>, <a href="https://github.com/lucidrains/denoising-diffusion-pytorch" rel="noopener noreferrer" target="_blank">Vanilla Diffusion</a>, <a href="https://github.com/openai/improved-diffusion" rel="noopener noreferrer" target="_blank">Improved Diffusion</a>, <a href="https://github.com/CompVis/stable-diffusion" rel="noopener noreferrer" target="_blank">Stable Diffusion</a>, <a href="https://huggingface.co/blog/stable_diffusion" rel="noopener noreferrer" target="_blank">HuggingFace Guide</a>, <a href="https://lilianweng.github.io/posts/2021-07-11-diffusion-models/" rel="noopener noreferrer" target="_blank">Super Nice Overview by Lilian</a>, <a href="https://github.com/CompVis/latent-diffusion" rel="noopener noreferrer" target="_blank">Latent Diffusion</a></td>
+<td> </td>
+<td>A4</td>
+<td> </td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Graph Neural Network</strong></td>
+<td><a href="https://arxiv.org/abs/1609.02907" rel="noopener noreferrer" target="_blank">GCN</a>, <a href="https://arxiv.org/abs/1710.10903" rel="noopener noreferrer" target="_blank">GAT</a></td>
+<td><a href="https://distill.pub/2021/gnn-intro/" rel="noopener noreferrer" target="_blank">Nice Introduction</a>, <a href="https://pytorch-geometric.readthedocs.io/en/latest/" rel="noopener noreferrer" target="_blank">PyTorch Geometric Docs</a>, <a href="https://www.dgl.ai/guide/" rel="noopener noreferrer" target="_blank">DGL Framework Guide</a>, <a href="https://github.com/dsgiitr/graph_nets" rel="noopener noreferrer" target="_blank">Many Code</a></td>
+<td> </td>
+<td>A5</td>
+<td>Phase 2: Midway Report / Experiment Protocol (<em>Presentation &amp; Report</em>)</td>
+</tr>
+<tr>
+<td> </td>
+<td>Final Exam</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>Final Project</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Phase 3: Final Report (<em>Presentation &amp; Report</em>)</td>
+</tr>
+<tr>
+<td> </td>
+<td>Appendix:  <strong>Reinforcement Learning</strong></td>
+<td><a href="https://arxiv.org/abs/1312.5602" rel="noopener noreferrer" target="_blank">Atari paper</a>, <a href="https://arxiv.org/pdf/1509.02971" rel="noopener noreferrer" target="_blank">continuous control</a>, <a href="https://arxiv.org/abs/1509.06461" rel="noopener noreferrer" target="_blank">double Q-learning</a>, <a href="https://arxiv.org/abs/1707.06347" rel="noopener noreferrer" target="_blank">PPO</a></td>
+<td><a href="https://spinningup.openai.com/en/latest/" rel="noopener noreferrer" target="_blank">OpenAI Spinning Up</a>, <a href="https://gymnasium.farama.org/" rel="noopener noreferrer" target="_blank">Gymnasium Documentation</a>, <a href="https://stable-baselines3.readthedocs.io/en/master/" rel="noopener noreferrer" target="_blank">Stable Baselines3</a>, <a href="https://cs224r.stanford.edu" rel="noopener noreferrer" target="_blank">Stanford course</a>,  <a href="http://rail.eecs.berkeley.edu/deeprlcourse/">Berkeley course</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>Appendix:  <strong>Semi-Supervised Learning</strong></td>
+<td><a href="https://arxiv.org/abs/1703.01780" rel="noopener noreferrer" target="_blank">MeanTeacher</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.html" rel="noopener noreferrer" target="_blank">Noisy Student</a>, <a href="https://arxiv.org/abs/2001.07685" rel="noopener noreferrer" target="_blank">FixMatch</a>, <a href="https://arxiv.org/abs/2110.08263" rel="noopener noreferrer" target="_blank">FlexMatch</a></td>
+<td><a href="https://github.com/google-research/fixmatch" rel="noopener noreferrer" target="_blank">FixMatch</a>, <a href="https://github.com/CuriousAI/mean-teacher" rel="noopener noreferrer" target="_blank">Mean Teacher Code</a>, <a href="https://amitness.com/posts/semi-supervised-learning" rel="noopener noreferrer" target="_blank">A Very Nice Overview</a>, <a href="https://github.com/TorchSSL/TorchSSL" rel="noopener noreferrer" target="_blank">PyTorch library for SSL</a>, <a href="https://lilianweng.github.io/posts/2021-12-05-semi-supervised/" rel="noopener noreferrer" target="_blank">Another Nice Blog by Lilian</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>Appendix:  <strong>Multimodal Learning</strong></td>
+<td><a href="https://arxiv.org/abs/2103.00020" rel="noopener noreferrer" target="_blank">CLIP</a>, <a href="https://arxiv.org/abs/2102.03334" rel="noopener noreferrer" target="_blank">ViLT</a>, <a href="https://arxiv.org/abs/2004.00849" rel="noopener noreferrer" target="_blank">PixelBERT</a>, <a href="https://arxiv.org/abs/2204.14198" rel="noopener noreferrer" target="_blank">Flamingo</a>, <a href="https://arxiv.org/abs/2303.08774" rel="noopener noreferrer" target="_blank">GPT4</a></td>
+<td><a href="https://arxiv.org/abs/2111.02114" rel="noopener noreferrer" target="_blank">LAIO-400M</a>,  <a href="https://arxiv.org/abs/2311.16502" rel="noopener noreferrer" target="_blank">MMMU</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-tutorial/schedule/" rel="noopener noreferrer" target="_blank">Tutorial</a>,  <a href="https://cmu-mmml.github.io/spring2023/" rel="noopener noreferrer" target="_blank">CMU Multimodal Course</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
 <p>Note:  If you have any good resources,  please email me chaklam@ait.asia!   Many of these resources come from the students.</p>
-
 <p><strong>Course Policies</strong></p>
-
-<p><strong>Attendance</strong><br />
+<p><strong>Attendance</strong><br/>
 Physical attendance in class is a crucial component of your learning in this course. Students are required to attend a minimum of 70% of all class sessions in person. Failure to meet this attendance requirement will result in an automatic F grade for the course, regardless of performance in other assessments.</p>
-
-<ul depth="0">
-	<li index="0">Attendance will be taken at the beginning of each class</li>
-	<li index="0">Medical emergencies and university-approved activities must be documented</li>
-	<li index="1">Contact the TA before class when possible for any anticipated absence</li>
+<ul>
+<li>Attendance will be taken at the beginning of each class</li>
+<li>Medical emergencies and university-approved activities must be documented</li>
+<li>Contact the TA before class when possible for any anticipated absence</li>
 </ul>
-
 <p><strong>Late Work </strong></p>
-
-<ul depth="0">
-	<li index="0">All assignments must be submitted through the course submission system by the specified due date and time</li>
-	<li index="1">The submission system will automatically close at the deadline</li>
-	<li index="2">No extensions will be granted except for documented emergencies</li>
-	<li index="0">Late work will not be accepted for credit under any circumstances</li>
-	<li index="1">While the submission portal will remain accessible after deadlines, you may continue to submit work for learning purposes and feedback.  No points will be awarded for any submissions after the deadline</li>
+<ul>
+<li>All assignments must be submitted through the course submission system by the specified due date and time</li>
+<li>The submission system will automatically close at the deadline</li>
+<li>No extensions will be granted except for documented emergencies</li>
+<li>Late work will not be accepted for credit under any circumstances</li>
+<li>While the submission portal will remain accessible after deadlines, you may continue to submit work for learning purposes and feedback.  No points will be awarded for any submissions after the deadline</li>
 </ul>
-
 <p><strong>Best Practices</strong></p>
-
-<ul depth="0">
-	<li index="0">Start assignments early to avoid technical issues</li>
-	<li index="1">Submit well before the deadline to avoid last-minute complications</li>
-	<li index="2">Check your submission confirmation to ensure successful upload</li>
-	<li index="3">Set up calendar reminders for all due dates listed in the course schedule</li>
+<ul>
+<li>Start assignments early to avoid technical issues</li>
+<li>Submit well before the deadline to avoid last-minute complications</li>
+<li>Check your submission confirmation to ensure successful upload</li>
+<li>Set up calendar reminders for all due dates listed in the course schedule</li>
 </ul>
-
 <p><strong>Academic Integrity</strong></p>
-
 <p>All submitted work must be your own original work. This includes code, analysis, and documentation.</p>
-
 <p><strong>Violations leading to automatic F grade:</strong></p>
-
-<ul depth="0">
-	<li index="0">Copying or sharing code/solutions</li>
-	<li index="1">Submitting others' work</li>
+<ul>
+<li>Copying or sharing code/solutions</li>
+<li>Submitting others' work</li>
 </ul>
-
 <p><strong>Acceptable:</strong></p>
-
-<ul depth="0">
-	<li index="0">Discussing concepts with classmates</li>
-	<li index="2">Seeking help from instructors/TAs</li>
+<ul>
+<li>Discussing concepts with classmates</li>
+<li>Seeking help from instructors/TAs</li>
 </ul>
-
 <p>Maintain academic integrity - it's fundamental to your learning and professional development.</p>
-
 <p><strong>Note</strong>: This syllabus is subject to change. Any modifications will be announced in class and posted online.</p>
+<div class="notranslate"> </div>
 
-<div class="notranslate" style="all: initial;"> </div>
+  </main>
+  <footer>Chaklam Silpasuwanchai · Academic Website</footer>
 </div>
-      
-  </div>
-
-</article>
-
-
-  </div>
-
-              </section>
-
-                </div>
-  </div>
-
-
-  </div>
-
-    
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/44","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"ca2879f48cdb45ed2124c1765cc48d136f6f3cc383b0dceb13654b64c58e3fca"}}</script>
-<script src="sites/default/files/js/js_kWXbNWhE9QuzvG5bctPc3Xwki-PYq6OX-qnv44PZvSI.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
-<script src="sites/default/files/js/js_wBDTa1Hsny_hL6Irg0y97RE_sjXR3rRWNo2fFZbFU08.js"></script>
-
-  </body>
+</body>
 </html>

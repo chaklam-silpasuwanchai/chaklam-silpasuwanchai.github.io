@@ -1,563 +1,422 @@
-<!DOCTYPE html>
-<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  <head>
-    <meta charset="utf-8" />
-<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="canonical" href="http://www.chaklam.com/nlp" />
-<link rel="shortlink" href="http://www.chaklam.com/node/45" />
-<link rel="revision" href="http://www.chaklam.com/nlp" />
-
-    <title>Chaklam Silpasuwanchai</title>
-    <link rel="stylesheet" media="all" href="sites/default/files/css/css_OIzBRxciYG74p5zSuRGfzMOMmxX2w4G6eJ9zFXXGLgE.css" />
-<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
-<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw==" crossorigin="anonymous" />
-
-    
-<!--[if lte IE 8]>
-<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
-<![endif]-->
-
-  </head>
-  <body class="exclude-node-title path-node page-node-type-page has-glyphicons">
-    <a href="nlp.html#main-content" class="visually-hidden focusable skip-link">
-      Skip to main content
-    </a>
-    
-      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-              <header class="navbar navbar-default container" id="navbar" role="banner">
-            <div class="navbar-header">
-          <div class="region region-navigation">
-            <a class="name navbar-brand" href="index.html" title="Home" rel="home">Chaklam Silpasuwanchai</a>
-    
-  </div>
-
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-              </div>
-
-                    <div id="navbar-collapse" class="navbar-collapse collapse">
-            <div class="region region-navigation-collapsible">
-    <nav role="navigation" aria-labelledby="block-bootstrap-main-menu-menu" id="block-bootstrap-main-menu">
-            <h2 class="sr-only" id="block-bootstrap-main-menu-menu">Main navigation</h2>
-
-      
-      <ul class="menu menu--main nav navbar-nav">
-                      <li class="first">
-                                        <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Home</a>
-              </li>
-                      <li class="expanded dropdown active active-trail">
-                                                                    <a href="nlp.html" class="dropdown-toggle active-trail" data-toggle="dropdown">Course <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                      <li class="first">
-                                        <a href="deep-learning.html" data-drupal-link-system-path="node/44">AT82.10 Deep Learning</a>
-              </li>
-                      <li class="active active-trail last">
-                                        <a href="nlp.html" class="active-trail is-active" data-drupal-link-system-path="node/45">AT82.05 Natural Language Processing</a>
-              </li>
-        </ul>
-  
-              </li>
-                      <li class="last">
-                                        <a href="https://ait-brainlab.github.io">AIT Brain Lab</a>
-              </li>
-        </ul>
-  
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Natural Language Processing (AT82.05) course information, schedule, and resources.">
+  <title>Natural Language Processing — Chaklam Silpasuwanchai</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .course-content { line-height: 1.65; }
+    .course-content h2 { margin-top: 1.7rem; }
+    .course-content p, .course-content ul, .course-content ol { margin-bottom: 1rem; }
+    .table-scroll { width: 100%; overflow-x: auto; margin: 1.25rem 0; }
+    .course-table { border-collapse: collapse; width: 100%; min-width: 580px; font-size: .9rem; }
+    .course-table th, .course-table td {
+      border: 1px solid #d8dee5; padding: .65rem .75rem;
+      text-align: left; vertical-align: top; overflow-wrap: anywhere;
+    }
+    .course-table tr:first-child { background: #f3f6f9; font-weight: 600; }
+    .course-table tr:nth-child(even) { background: #fafbfc; }
+    .course-content a { overflow-wrap: anywhere; }
+    .course-content > p:first-of-type { color: #596579; }
+    @media (max-width: 680px) { .course-table { font-size: .82rem; } }
+  </style>
+</head>
+<body>
+<div class="site">
+  <header>
+    <h1>Chaklam Silpasuwanchai</h1>
+    <div class="subtitle">Asian Institute of Technology · Research, Teaching &amp; Academic Activities</div>
+  </header>
+  <nav aria-label="Main navigation">
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#grants">Grants</a>
+      <a href="index.html#teaching">Teaching</a>
+      <a href="index.html#talks">Talks</a>
+      <a href="index.html#service">Academic Services</a>
+      <a href="index.html#collaboration">Industry</a>
+      <a href="index.html#awards">Awards</a>
+      <a href="blog.html">Blog</a>
   </nav>
+  <main class="main standalone course-content" id="main-content">
+    <p><a href="index.html#teaching">← Back to Teaching</a></p>
+    <h1>Natural Language Processing</h1>
 
-  </div>
-
-        </div>
-                </header>
-  
-  <div role="main" class="main-container container js-quickedit-main-content">
-    <div class="row">
-
-                              <div class="col-sm-12" role="heading">
-              <div class="region region-header">
-      
-<div data-drupal-messages-fallback class="hidden"></div>
-    <h1 class="page-header"></h1>
-
-
-  </div>
-
-          </div>
-              
-            
-                  <section class="col-sm-12">
-
-                
-                                      
-                  
-                          <a id="main-content"></a>
-            <div class="region region-content">
-      <article data-history-node-id="45" role="article" about="/nlp" typeof="schema:WebPage" class="page full clearfix">
-
-  
-      <span property="schema:name" content="Natural Language Processing" class="hidden"></span>
-
-
-  
-  <div class="content">
-    
-            <div property="schema:text" class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style type="text/css">
-<!--/*--><![CDATA[/* ><!--*/
-table {
-    font-size: 12px;
-  }
-  th, td {
-    font-size: 12px;
-  }
-
-/*--><!]]>*/
-</style>
-<h1><strong>Natural Language Processing</strong></h1>
 
 <p>(a.k.a. Natural Language Understanding)</p>
-
-<p><strong>Course Number</strong>: AT82.05<br />
-<strong>Credits</strong>: 3<br />
-<strong>Links</strong>:  <meta charset="UTF-8" /> <a href="https://drive.google.com/drive/folders/14x9_-Y_aWysPIZFLaVrZE2ngy2h_beJj?usp=sharing" target="_blank">Slides</a>,  <a href="https://github.com/chaklam-silpasuwanchai/Natural-Language-Processing" target="_blank">Github</a>, <a href="https://www.youtube.com/playlist?list=PLqL-7eLmqd9V3faivSAST76YQClS44dSz" target="_blank">Youtube</a><br />
+<p><strong>Course Number</strong>: AT82.05<br/>
+<strong>Credits</strong>: 3<br/>
+<strong>Links</strong>:   <a href="https://drive.google.com/drive/folders/14x9_-Y_aWysPIZFLaVrZE2ngy2h_beJj?usp=sharing" rel="noopener noreferrer" target="_blank">Slides</a>,  <a href="https://github.com/chaklam-silpasuwanchai/Natural-Language-Processing" rel="noopener noreferrer" target="_blank">Github</a>, <a href="https://www.youtube.com/playlist?list=PLqL-7eLmqd9V3faivSAST76YQClS44dSz" rel="noopener noreferrer" target="_blank">Youtube</a><br/>
 <strong>Similar Course (recommended)</strong>:   <a href="https://web.stanford.edu/class/cs224n/">Stanford CS224N</a></p>
-
-<p><strong>Course Description</strong><br />
+<p><strong>Course Description</strong><br/>
 This natural language processing course explores deep learning techniques with the focus on language. Students will gain both theoretical understanding and practical experience with state-of-the-art models including Word Embeddings, LSTM,  Transformer, Pretrained Models, Instruction Tuning, Reasoning and Agentic AI,  PEFT and Quantization, RAG,  Speech, Multimodal Learning. Through hands-on projects, students will implement and experiment with these architectures to solve real-world problems.</p>
-
 <p><strong>Instructor Information</strong></p>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td style="width: 124px;"><strong>Instructor</strong></td>
-			<td style="width: 363px;">Chaklam Silpasuwanchai</td>
-		</tr>
-		<tr>
-			<td style="width: 124px;"><strong>Office</strong></td>
-			<td style="width: 363px;">CS101</td>
-		</tr>
-		<tr>
-			<td style="width: 124px;"><strong>Email</strong></td>
-			<td style="width: 363px;">chaklam@ait.asia</td>
-		</tr>
-		<tr>
-			<td style="width: 124px;"><strong>Teacher Assistant</strong></td>
-			<td style="width: 363px;">Todsavad Tangtortan (st124859@ait.asia)</td>
-		</tr>
-	</tbody>
-</table>
-
-<p><strong>Prerequisites</strong><br />
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Instructor</strong></td>
+<td>Chaklam Silpasuwanchai</td>
+</tr>
+<tr>
+<td><strong>Office</strong></td>
+<td>CS101</td>
+</tr>
+<tr>
+<td><strong>Email</strong></td>
+<td>chaklam@ait.asia</td>
+</tr>
+<tr>
+<td><strong>Teacher Assistant</strong></td>
+<td>Todsavad Tangtortan (st124859@ait.asia)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Prerequisites</strong><br/>
 There are no prerequisites but is recommended to take these courses prior:</p>
-
 <ul>
-	<li>AT82.03 Machine Learning</li>
-	<li>AT82.01 Computer Programming for Data Science and Artificial Intelligence</li>
+<li>AT82.03 Machine Learning</li>
+<li>AT82.01 Computer Programming for Data Science and Artificial Intelligence</li>
 </ul>
-
-<p><strong>Course Objectives</strong><br />
+<p><strong>Course Objectives</strong><br/>
 By the end of this course, students will be able to: </p>
-
 <ol>
-	<li>Design, train, test, and deploy <strong>natural language processing techniques</strong> including embeddings,  RNN, LSTM, Transformers, Tokenization, Pretrained Models, .</li>
-	<li>Develop an <strong>end-to-end deep learning project</strong> incorporating multiple techniques covered in the course, demonstrating ability to move from research concepts to practical applications</li>
+<li>Design, train, test, and deploy <strong>natural language processing techniques</strong> including embeddings,  RNN, LSTM, Transformers, Tokenization, Pretrained Models, .</li>
+<li>Develop an <strong>end-to-end deep learning project</strong> incorporating multiple techniques covered in the course, demonstrating ability to move from research concepts to practical applications</li>
 </ol>
-
 <p><strong>Recommended Textbook(s)</strong></p>
-
 <ol>
-	<li>Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition<strong>, </strong>Daniel Jurafsky and James H. Martin</li>
+<li>Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition<strong>, </strong>Daniel Jurafsky and James H. Martin</li>
 </ol>
-
 <p><strong>Grading</strong></p>
-
-<table border="1" cellpadding="1" style="width: 196.6px;">
-	<tbody>
-		<tr>
-			<td style="width: 97px;"><strong>Component</strong></td>
-			<td style="width: 83px;"><strong>Percentage</strong></td>
-		</tr>
-		<tr>
-			<td style="width: 97px;">Quiz</td>
-			<td style="width: 83px;">30</td>
-		</tr>
-		<tr>
-			<td style="width: 97px;">Project</td>
-			<td style="width: 83px;">30</td>
-		</tr>
-		<tr>
-			<td style="width: 97px;">Assignments</td>
-			<td style="width: 83px;">40</td>
-		</tr>
-	</tbody>
-</table>
-
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Component</strong></td>
+<td><strong>Percentage</strong></td>
+</tr>
+<tr>
+<td>Quiz</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Assignments</td>
+<td>40</td>
+</tr>
+</tbody>
+</table></div>
 <p>Grading scale is based on normal distribution.</p>
-
 <p><strong>Course Schedule</strong></p>
-
-<table border="1" cellpadding="1">
-	<tbody>
-		<tr>
-			<td><strong>Weeks</strong></td>
-			<td><strong>Topic</strong></td>
-			<td style="width: 256px;"><strong>Readings</strong></td>
-			<td style="width: 252px;"><strong>Extra Resources</strong></td>
-			<td style="width: 189px;"><strong>Assignments</strong></td>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>Word2Vec, GloVe</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/1301.3781" target="_blank">Word2Vec</a>, <a href="https://nlp.stanford.edu/pubs/glove.pdf" target="_blank">GloVe</a></td>
-			<td style="width: 252px;"><a href="https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html" target="_blank">PyTorch Word Embeddings Tutorial</a>, <a href="https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py" target="_blank">Gensim's word2vec</a>, <a href="https://nlp.stanford.edu/projects/glove/" target="_blank">Stanford GloVe</a>, <a href="https://spacy.io">Spacy</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1EpIfqtevQqSGSvzbl0LvS_TB1_YnQcnj/view?usp=sharing">A1: Search Engine</a></td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>RNN, LSTM</td>
-			<td style="width: 256px;"><a href="https://www.bioinf.jku.at/publications/older/2604.pdf" target="_blank">LSTM</a>, <a href="https://arxiv.org/abs/1308.0850" target="_blank">Sequence Generation with RNNs</a>, <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">Understanding LSTM Networks</a></td>
-			<td style="width: 252px;"><a href="https://github.com/bentrevett/pytorch-seq2seq" target="_blank">PyTorch Seq2Seq Tutorials</a>, <a href="https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html" target="_blank">PyTorch Translation Tutorial</a>, <a href="https://github.com/pytorch/examples/tree/main/word_language_model" target="_blank">PyTorch Language Model Example</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1VHaeisB5UJRi64H7i69-z-so9fI4BJte/view?usp=sharing">A2: Language Model</a></td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>Attention, Transformers</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/1706.03762" target="_blank">Attention is All You Need</a>, <a href="https://arxiv.org/abs/1409.0473" target="_blank">Neural Machine Translation by Attention</a>, <a href="https://jalammar.github.io/illustrated-transformer/" target="_blank">The Illustrated Transformer</a></td>
-			<td style="width: 252px;"><a href="https://github.com/huggingface/transformers/tree/main/examples/pytorch" target="_blank">HuggingFace PyTorch Examples</a>, <a href="https://huggingface.co/course/chapter1" target="_blank">HuggingFace Course</a>, <a href="http://nlp.seas.harvard.edu/annotated-transformer/" target="_blank">Annotated Transformer</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1Ly_pkTJvj0uM7keseRnjIdDMjIY_6NQ_/view?usp=sharing">A3: Machine Translation</a></td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>Tokenization, FastText, ELMo, Pretrained Models</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/1802.05365" target="_blank">Deep contextualized word representations (ELMo)</a>, <a href="https://arxiv.org/abs/1607.04606" target="_blank">Enriching Word Vectors with Subword Information</a></td>
-			<td style="width: 252px;"> <a href="https://huggingface.co/learn/nlp-course/en/chapter2/4" target="_blank">HuggingFace Tokenizers</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1LWaGhDAD9oRX0p1n8GHgxUOiV6yhVCbL/view?usp=sharing">A4: Resume Parser</a></td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td>Pretrained Models, Prompt-based Learning</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT</a>, <a href="https://arxiv.org/abs/2005.14165" target="_blank">GPT-3</a>, <a href="https://arxiv.org/abs/2101.00190" target="_blank">Prefix-Tuning</a></td>
-			<td style="width: 252px;"><a href="https://huggingface.co/docs/transformers/index" target="_blank">HF Transformers</a>, <a href="https://huggingface.co/course">HF Course</a>, <a href="https://github.com/karpathy/minGPT" target="_blank">Karpathy's GPT tutorial</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1pWHZDjX16GsLia4hmIziamXKmbUfXw6R/view?usp=sharing">A5: Sentence Embeddings</a></td>
-		</tr>
-		<tr>
-			<td>6</td>
-			<td>Instruction Tuning, RLHF</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/2203.02155" target="_blank">InstructGPT</a>, <a href="https://arxiv.org/abs/2301.13688" target="_blank">Best Practices</a>, <a href="https://arxiv.org/abs/2212.10560" target="_blank">Self-Instruct</a>, <a href="https://arxiv.org/abs/2212.08073" target="_blank">Constitutional AI</a>, <a href="https://arxiv.org/abs/2210.11416" target="_blank">Scaling</a></td>
-			<td style="width: 252px;"><a href="https://huggingface.co/docs/trl/en/sft_trainer" target="_blank">SFT Trainer</a>, <a href="https://www.ruder.io/the-big-picture-of-ai-research/" target="_blank">Ruder's on EMNLP 2023</a>, <a href="https://www.ruder.io/an-overview-of-instruction-tuning-data/" target="_blank">Ruder's blog on Instruction Tuning</a></td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>Benchmark &amp; Evaluation</td>
-			<td style="width: 256px;"> </td>
-			<td style="width: 252px;"> </td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>8</td>
-			<td>Reasoning, Agents, Agentic AI | Distillation, Pruning</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/1503.02531" target="_blank">Distillation</a>, <a href="https://arxiv.org/abs/1803.03635" target="_blank">Lottery Ticket Hypothesis</a>, <a href="https://arxiv.org/abs/2106.09685" target="_blank">LoRA</a></td>
-			<td style="width: 252px;"><a href="https://huggingface.co/docs/peft/index" target="_blank">PEFT Library</a>, <a href="https://pytorch.org/tutorials/advanced/dynamic_quantization_tutorial.html" target="_blank">PyTorch Quantization</a>, <a href="https://github.com/microsoft/DeepSpeed" target="_blank">DeepSpeed</a>, <a href="https://github.com/IST-DASLab/sparsegpt" target="_blank">SparseGPT</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1mQyxRn5YU07JjOypl6PoemK4gel6uK8i/view?usp=sharing">A6: Student Layers</a></td>
-		</tr>
-		<tr>
-			<td>9</td>
-			<td>PEFT, Quantization</td>
-			<td style="width: 256px;"> </td>
-			<td style="width: 252px;"> </td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>10</td>
-			<td>RAG, Question Answering, Generation</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/2005.11401" target="_blank">RAG</a>, <a href="https://arxiv.org/abs/1910.10683" target="_blank">T5</a>, <a href="https://arxiv.org/abs/1910.13461" target="_blank">BART</a></td>
-			<td style="width: 252px;"><a href="https://python.langchain.com/docs/introduction/" target="_blank">LangChain</a>, <a href="https://lilianweng.github.io/posts/2024-07-07-hallucination/" target="_blank">Lilian blog on hallucination</a>, <a href="https://lilianweng.github.io/posts/2023-06-23-agent/" target="_blank">agents</a>, and <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" target="_blank">prompt engineering</a>, <a href="https://www.ruder.io/nlp-research-era-of-llms/" target="_blank">Ruder's blog on LLM</a>, <a href="https://huyenchip.com/2024/07/25/genai-platform.html" target="_blank">Chip's blog on best practices</a></td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1gv3ch2KMpCXpLe6UaQJN6Rg6FY25SK29/view?usp=sharing">A7: AITGPT</a></td>
-		</tr>
-		<tr>
-			<td>11</td>
-			<td> </td>
-			<td style="width: 256px;"> </td>
-			<td style="width: 252px;"> </td>
-			<td style="width: 189px;"><a href="https://drive.google.com/file/d/1l46EuLMNrBclBzQtqHIfNkpTRNvE1Q17/view?usp=sharing">A8: Instruction Tuning</a></td>
-		</tr>
-		<tr>
-			<td>10</td>
-			<td>Multimodal Learning</td>
-			<td style="width: 256px;"><a href="https://arxiv.org/abs/2103.00020" target="_blank">CLIP</a>, <a href="https://arxiv.org/abs/2204.14198" target="_blank">Flamingo</a>, <a href="https://arxiv.org/abs/2303.08774" target="_blank">GPT4o</a>, <a href="https://arxiv.org/abs/2201.12086" target="_blank">BLIP</a></td>
-			<td style="width: 252px;"><a href="https://github.com/openai/CLIP" target="_blank">OpenAI CLIP</a>, <a href="https://github.com/haotian-liu/LLaVA" target="_blank">LLaVA</a>, <a href="https://github.com/salesforce/LAVIS" target="_blank">LAVIS</a>, <a href="https://github.com/mlfoundations/open_clip" target="_blank">OpenCLIP</a>, <a href="https://www.ruder.io/state-of-multilingual-ai/" target="_blank">Ruder's on ML</a>, <a href="https://huyenchip.com/2023/10/10/multimodal.html" target="_blank">Chip on ML</a></td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>11</td>
-			<td>Project Proposal</td>
-			<td style="width: 256px;"><em>Presentation</em></td>
-			<td style="width: 252px;"><a href="https://2023.aclweb.org/calls/style_and_formatting/" target="_blank">ACL Format</a>, <a href="https://github.com/acl-org/acl-style-files" target="_blank">ACL Style Files</a>, <a href="https://huyenchip.com/2024/03/14/ai-oss.html" target="_blank">Insights by Chip</a></td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>12</td>
-			<td><em>No class</em></td>
-			<td style="width: 256px;">N/A</td>
-			<td style="width: 252px;">N/A</td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>13</td>
-			<td>Project Progress</td>
-			<td style="width: 256px;"><em>No Presentation</em></td>
-			<td style="width: 252px;"> </td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>14</td>
-			<td><em>No class</em></td>
-			<td style="width: 256px;">N/A</td>
-			<td style="width: 252px;">N/A</td>
-			<td style="width: 189px;"> </td>
-		</tr>
-		<tr>
-			<td>15</td>
-			<td>Final Project</td>
-			<td style="width: 256px;"><em>Presentation</em></td>
-			<td style="width: 252px;"> </td>
-			<td style="width: 189px;"> </td>
-		</tr>
-	</tbody>
-</table>
-
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Weeks</strong></td>
+<td><strong>Topic</strong></td>
+<td><strong>Readings</strong></td>
+<td><strong>Extra Resources</strong></td>
+<td><strong>Assignments</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Word2Vec, GloVe</td>
+<td><a href="https://arxiv.org/abs/1301.3781" rel="noopener noreferrer" target="_blank">Word2Vec</a>, <a href="https://nlp.stanford.edu/pubs/glove.pdf" rel="noopener noreferrer" target="_blank">GloVe</a></td>
+<td><a href="https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html" rel="noopener noreferrer" target="_blank">PyTorch Word Embeddings Tutorial</a>, <a href="https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py" rel="noopener noreferrer" target="_blank">Gensim's word2vec</a>, <a href="https://nlp.stanford.edu/projects/glove/" rel="noopener noreferrer" target="_blank">Stanford GloVe</a>, <a href="https://spacy.io">Spacy</a></td>
+<td><a href="https://drive.google.com/file/d/1EpIfqtevQqSGSvzbl0LvS_TB1_YnQcnj/view?usp=sharing">A1: Search Engine</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>RNN, LSTM</td>
+<td><a href="https://www.bioinf.jku.at/publications/older/2604.pdf" rel="noopener noreferrer" target="_blank">LSTM</a>, <a href="https://arxiv.org/abs/1308.0850" rel="noopener noreferrer" target="_blank">Sequence Generation with RNNs</a>, <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" rel="noopener noreferrer" target="_blank">Understanding LSTM Networks</a></td>
+<td><a href="https://github.com/bentrevett/pytorch-seq2seq" rel="noopener noreferrer" target="_blank">PyTorch Seq2Seq Tutorials</a>, <a href="https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html" rel="noopener noreferrer" target="_blank">PyTorch Translation Tutorial</a>, <a href="https://github.com/pytorch/examples/tree/main/word_language_model" rel="noopener noreferrer" target="_blank">PyTorch Language Model Example</a></td>
+<td><a href="https://drive.google.com/file/d/1VHaeisB5UJRi64H7i69-z-so9fI4BJte/view?usp=sharing">A2: Language Model</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Attention, Transformers</td>
+<td><a href="https://arxiv.org/abs/1706.03762" rel="noopener noreferrer" target="_blank">Attention is All You Need</a>, <a href="https://arxiv.org/abs/1409.0473" rel="noopener noreferrer" target="_blank">Neural Machine Translation by Attention</a>, <a href="https://jalammar.github.io/illustrated-transformer/" rel="noopener noreferrer" target="_blank">The Illustrated Transformer</a></td>
+<td><a href="https://github.com/huggingface/transformers/tree/main/examples/pytorch" rel="noopener noreferrer" target="_blank">HuggingFace PyTorch Examples</a>, <a href="https://huggingface.co/course/chapter1" rel="noopener noreferrer" target="_blank">HuggingFace Course</a>, <a href="http://nlp.seas.harvard.edu/annotated-transformer/" rel="noopener noreferrer" target="_blank">Annotated Transformer</a></td>
+<td><a href="https://drive.google.com/file/d/1Ly_pkTJvj0uM7keseRnjIdDMjIY_6NQ_/view?usp=sharing">A3: Machine Translation</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Tokenization, FastText, ELMo, Pretrained Models</td>
+<td><a href="https://arxiv.org/abs/1802.05365" rel="noopener noreferrer" target="_blank">Deep contextualized word representations (ELMo)</a>, <a href="https://arxiv.org/abs/1607.04606" rel="noopener noreferrer" target="_blank">Enriching Word Vectors with Subword Information</a></td>
+<td> <a href="https://huggingface.co/learn/nlp-course/en/chapter2/4" rel="noopener noreferrer" target="_blank">HuggingFace Tokenizers</a></td>
+<td><a href="https://drive.google.com/file/d/1LWaGhDAD9oRX0p1n8GHgxUOiV6yhVCbL/view?usp=sharing">A4: Resume Parser</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pretrained Models, Prompt-based Learning</td>
+<td><a href="https://arxiv.org/abs/1810.04805" rel="noopener noreferrer" target="_blank">BERT</a>, <a href="https://arxiv.org/abs/2005.14165" rel="noopener noreferrer" target="_blank">GPT-3</a>, <a href="https://arxiv.org/abs/2101.00190" rel="noopener noreferrer" target="_blank">Prefix-Tuning</a></td>
+<td><a href="https://huggingface.co/docs/transformers/index" rel="noopener noreferrer" target="_blank">HF Transformers</a>, <a href="https://huggingface.co/course">HF Course</a>, <a href="https://github.com/karpathy/minGPT" rel="noopener noreferrer" target="_blank">Karpathy's GPT tutorial</a></td>
+<td><a href="https://drive.google.com/file/d/1pWHZDjX16GsLia4hmIziamXKmbUfXw6R/view?usp=sharing">A5: Sentence Embeddings</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Instruction Tuning, RLHF</td>
+<td><a href="https://arxiv.org/abs/2203.02155" rel="noopener noreferrer" target="_blank">InstructGPT</a>, <a href="https://arxiv.org/abs/2301.13688" rel="noopener noreferrer" target="_blank">Best Practices</a>, <a href="https://arxiv.org/abs/2212.10560" rel="noopener noreferrer" target="_blank">Self-Instruct</a>, <a href="https://arxiv.org/abs/2212.08073" rel="noopener noreferrer" target="_blank">Constitutional AI</a>, <a href="https://arxiv.org/abs/2210.11416" rel="noopener noreferrer" target="_blank">Scaling</a></td>
+<td><a href="https://huggingface.co/docs/trl/en/sft_trainer" rel="noopener noreferrer" target="_blank">SFT Trainer</a>, <a href="https://www.ruder.io/the-big-picture-of-ai-research/" rel="noopener noreferrer" target="_blank">Ruder's on EMNLP 2023</a>, <a href="https://www.ruder.io/an-overview-of-instruction-tuning-data/" rel="noopener noreferrer" target="_blank">Ruder's blog on Instruction Tuning</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>7</td>
+<td>Benchmark &amp; Evaluation</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>8</td>
+<td>Reasoning, Agents, Agentic AI | Distillation, Pruning</td>
+<td><a href="https://arxiv.org/abs/1503.02531" rel="noopener noreferrer" target="_blank">Distillation</a>, <a href="https://arxiv.org/abs/1803.03635" rel="noopener noreferrer" target="_blank">Lottery Ticket Hypothesis</a>, <a href="https://arxiv.org/abs/2106.09685" rel="noopener noreferrer" target="_blank">LoRA</a></td>
+<td><a href="https://huggingface.co/docs/peft/index" rel="noopener noreferrer" target="_blank">PEFT Library</a>, <a href="https://pytorch.org/tutorials/advanced/dynamic_quantization_tutorial.html" rel="noopener noreferrer" target="_blank">PyTorch Quantization</a>, <a href="https://github.com/microsoft/DeepSpeed" rel="noopener noreferrer" target="_blank">DeepSpeed</a>, <a href="https://github.com/IST-DASLab/sparsegpt" rel="noopener noreferrer" target="_blank">SparseGPT</a></td>
+<td><a href="https://drive.google.com/file/d/1mQyxRn5YU07JjOypl6PoemK4gel6uK8i/view?usp=sharing">A6: Student Layers</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>PEFT, Quantization</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>10</td>
+<td>RAG, Question Answering, Generation</td>
+<td><a href="https://arxiv.org/abs/2005.11401" rel="noopener noreferrer" target="_blank">RAG</a>, <a href="https://arxiv.org/abs/1910.10683" rel="noopener noreferrer" target="_blank">T5</a>, <a href="https://arxiv.org/abs/1910.13461" rel="noopener noreferrer" target="_blank">BART</a></td>
+<td><a href="https://python.langchain.com/docs/introduction/" rel="noopener noreferrer" target="_blank">LangChain</a>, <a href="https://lilianweng.github.io/posts/2024-07-07-hallucination/" rel="noopener noreferrer" target="_blank">Lilian blog on hallucination</a>, <a href="https://lilianweng.github.io/posts/2023-06-23-agent/" rel="noopener noreferrer" target="_blank">agents</a>, and <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" rel="noopener noreferrer" target="_blank">prompt engineering</a>, <a href="https://www.ruder.io/nlp-research-era-of-llms/" rel="noopener noreferrer" target="_blank">Ruder's blog on LLM</a>, <a href="https://huyenchip.com/2024/07/25/genai-platform.html" rel="noopener noreferrer" target="_blank">Chip's blog on best practices</a></td>
+<td><a href="https://drive.google.com/file/d/1gv3ch2KMpCXpLe6UaQJN6Rg6FY25SK29/view?usp=sharing">A7: AITGPT</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><a href="https://drive.google.com/file/d/1l46EuLMNrBclBzQtqHIfNkpTRNvE1Q17/view?usp=sharing">A8: Instruction Tuning</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Multimodal Learning</td>
+<td><a href="https://arxiv.org/abs/2103.00020" rel="noopener noreferrer" target="_blank">CLIP</a>, <a href="https://arxiv.org/abs/2204.14198" rel="noopener noreferrer" target="_blank">Flamingo</a>, <a href="https://arxiv.org/abs/2303.08774" rel="noopener noreferrer" target="_blank">GPT4o</a>, <a href="https://arxiv.org/abs/2201.12086" rel="noopener noreferrer" target="_blank">BLIP</a></td>
+<td><a href="https://github.com/openai/CLIP" rel="noopener noreferrer" target="_blank">OpenAI CLIP</a>, <a href="https://github.com/haotian-liu/LLaVA" rel="noopener noreferrer" target="_blank">LLaVA</a>, <a href="https://github.com/salesforce/LAVIS" rel="noopener noreferrer" target="_blank">LAVIS</a>, <a href="https://github.com/mlfoundations/open_clip" rel="noopener noreferrer" target="_blank">OpenCLIP</a>, <a href="https://www.ruder.io/state-of-multilingual-ai/" rel="noopener noreferrer" target="_blank">Ruder's on ML</a>, <a href="https://huyenchip.com/2023/10/10/multimodal.html" rel="noopener noreferrer" target="_blank">Chip on ML</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>11</td>
+<td>Project Proposal</td>
+<td><em>Presentation</em></td>
+<td><a href="https://2023.aclweb.org/calls/style_and_formatting/" rel="noopener noreferrer" target="_blank">ACL Format</a>, <a href="https://github.com/acl-org/acl-style-files" rel="noopener noreferrer" target="_blank">ACL Style Files</a>, <a href="https://huyenchip.com/2024/03/14/ai-oss.html" rel="noopener noreferrer" target="_blank">Insights by Chip</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>12</td>
+<td><em>No class</em></td>
+<td>N/A</td>
+<td>N/A</td>
+<td> </td>
+</tr>
+<tr>
+<td>13</td>
+<td>Project Progress</td>
+<td><em>No Presentation</em></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>14</td>
+<td><em>No class</em></td>
+<td>N/A</td>
+<td>N/A</td>
+<td> </td>
+</tr>
+<tr>
+<td>15</td>
+<td>Final Project</td>
+<td><em>Presentation</em></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
 <p>Note:  If you have any good resources,  please email me chaklam@ait.asia!   Many of these resources come from the students.</p>
-
 <p><strong>Projects</strong></p>
-
-<p>1. <strong>Project Objectives</strong><br />
-- Demonstrate practical application of NLP techniques<br />
-- Develop research and technical writing skills<br />
+<p>1. <strong>Project Objectives</strong><br/>
+- Demonstrate practical application of NLP techniques<br/>
+- Develop research and technical writing skills<br/>
 - Create a scholarly paper following academic conference standards</p>
-
-<p>2. <strong>Deliverables</strong><br />
-- Report in ACL format (proposal, progress, defense)<br />
-- Github link with comprehensive README (progress, defense)<br />
+<p>2. <strong>Deliverables</strong><br/>
+- Report in ACL format (proposal, progress, defense)<br/>
+- Github link with comprehensive README (progress, defense)<br/>
 - 1-min demo video (progress, defense)</p>
-
 <p>3. <strong>Project Requirements</strong></p>
-
-<p>3.1 <strong>Project Scope</strong><br />
-- 2-3 members maximum<br />
-- Original research or significant improvement on existing approaches<br />
+<p>3.1 <strong>Project Scope</strong><br/>
+- 2-3 members maximum<br/>
+- Original research or significant improvement on existing approaches<br/>
 - Must involve substantive NLP methodology or application</p>
-
-<p>3.2<strong> Technical Expectations</strong><br />
-- Implement at least one of the following:<br />
-  - Novel NLP model or architecture<br />
-  - Innovative application of existing NLP techniques<br />
-  - Comprehensive comparative study of NLP methods<br />
-  - Dataset creation or significant augmentation<br />
+<p>3.2<strong> Technical Expectations</strong><br/>
+- Implement at least one of the following:<br/>
+  - Novel NLP model or architecture<br/>
+  - Innovative application of existing NLP techniques<br/>
+  - Comprehensive comparative study of NLP methods<br/>
+  - Dataset creation or significant augmentation<br/>
   - Advanced NLP pipeline or system</p>
-
-<p>3.3 <strong>Implementation Requirements</strong><br />
-- Use modern NLP libraries/frameworks (e.g., spaCy, NLTK, Transformers)<br />
-- Demonstrate understanding of:<br />
-  - Appropriate data preprocessing<br />
-  - Model selection and justification<br />
-  - Comprehensive evaluation metrics<br />
+<p>3.3 <strong>Implementation Requirements</strong><br/>
+- Use modern NLP libraries/frameworks (e.g., spaCy, NLTK, Transformers)<br/>
+- Demonstrate understanding of:<br/>
+  - Appropriate data preprocessing<br/>
+  - Model selection and justification<br/>
+  - Comprehensive evaluation metrics<br/>
   - Statistical significance of results</p>
-
 <p>4. <strong>ACL Paper Format Guidelines</strong></p>
-
 <p>Papers must follow the standard ACL paper format with the following sections:</p>
-
-<table border="1" cellpadding="3" cellspacing="1" style="width: 629.6px;">
-	<tbody>
-		<tr>
-			<td style="text-align: center;"><strong>Title Page</strong></td>
-			<td style="width: 225px; text-align: center;"><strong>Abstract</strong></td>
-			<td style="width: 120px; text-align: center;"><strong>Introduction</strong></td>
-			<td style="width: 28px; text-align: center;"><strong>Related Work</strong></td>
-			<td style="width: 151px; text-align: center;"><strong>Methodology</strong></td>
-			<td style="width: 200px; text-align: center;"><strong>Experiments</strong></td>
-			<td style="width: 118px; text-align: center;"><strong>Results</strong></td>
-			<td style="width: 54px; text-align: center;"><strong>Discussion</strong></td>
-			<td style="width: 54px; text-align: center;"><strong>Conclusion</strong></td>
-			<td style="width: 54px; text-align: center;"><strong>References</strong></td>
-		</tr>
-		<tr>
-			<td style="vertical-align: top;">
-			<ul>
-				<li>Descriptive title</li>
-				<li>Author names and affiliations</li>
-				<li> Contact information</li>
-			</ul>
-			</td>
-			<td style="width: 225px; vertical-align: top;">
-			<ul>
-				<li>250 words max</li>
-				<li>Concise summary of research</li>
-				<li>Problem statement</li>
-				<li>Key methodology</li>
-				<li>Primary results and contributions</li>
-			</ul>
-			</td>
-			<td style="width: 120px; vertical-align: top;">
-			<ul>
-				<li> Research problem context</li>
-				<li> Motivation</li>
-				<li> Research questions/hypotheses</li>
-				<li> Brief overview of approach</li>
-			</ul>
-			</td>
-			<td style="width: 28px; vertical-align: top;">
-			<ul>
-				<li>Comprehensive literature review</li>
-				<li>Positioning of current research</li>
-				<li>Gaps in existing approaches</li>
-			</ul>
-			</td>
-			<td style="width: 151px; vertical-align: top;">
-			<ul>
-				<li>Detailed description of approach</li>
-				<li>Technical implementation details</li>
-				<li>Algorithmic or model descriptions</li>
-			</ul>
-			</td>
-			<td style="width: 200px; vertical-align: top;">
-			<ul>
-				<li>Experimental setup</li>
-				<li>Dataset description</li>
-				<li>Evaluation metrics</li>
-				<li>Statistics analysis</li>
-				<li>Ablation studies (if applicable)</li>
-			</ul>
-			</td>
-			<td style="width: 118px; vertical-align: top;">
-			<ul>
-				<li>Presentation of key findings</li>
-				<li>Comparative analysis</li>
-				<li>Visualizations and tables</li>
-			</ul>
-			</td>
-			<td style="width: 54px; vertical-align: top;">
-			<ul>
-				<li>Implications of research</li>
-				<li>Limitations</li>
-				<li>Potential future work</li>
-			</ul>
-			</td>
-			<td style="width: 54px; vertical-align: top;">
-			<ul>
-				<li>Summarize key contributions</li>
-				<li>Broader impact of research</li>
-			</ul>
-			</td>
-			<td style="width: 54px; vertical-align: top;">
-			<ul>
-				<li>Minimum 15-20 academic sources</li>
-				<li>Follow ACL citation style</li>
-			</ul>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
+<div class="table-scroll"><table class="course-table">
+<tbody>
+<tr>
+<td><strong>Title Page</strong></td>
+<td><strong>Abstract</strong></td>
+<td><strong>Introduction</strong></td>
+<td><strong>Related Work</strong></td>
+<td><strong>Methodology</strong></td>
+<td><strong>Experiments</strong></td>
+<td><strong>Results</strong></td>
+<td><strong>Discussion</strong></td>
+<td><strong>Conclusion</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li>Descriptive title</li>
+<li>Author names and affiliations</li>
+<li> Contact information</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>250 words max</li>
+<li>Concise summary of research</li>
+<li>Problem statement</li>
+<li>Key methodology</li>
+<li>Primary results and contributions</li>
+</ul>
+</td>
+<td>
+<ul>
+<li> Research problem context</li>
+<li> Motivation</li>
+<li> Research questions/hypotheses</li>
+<li> Brief overview of approach</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Comprehensive literature review</li>
+<li>Positioning of current research</li>
+<li>Gaps in existing approaches</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Detailed description of approach</li>
+<li>Technical implementation details</li>
+<li>Algorithmic or model descriptions</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Experimental setup</li>
+<li>Dataset description</li>
+<li>Evaluation metrics</li>
+<li>Statistics analysis</li>
+<li>Ablation studies (if applicable)</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Presentation of key findings</li>
+<li>Comparative analysis</li>
+<li>Visualizations and tables</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Implications of research</li>
+<li>Limitations</li>
+<li>Potential future work</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Summarize key contributions</li>
+<li>Broader impact of research</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Minimum 15-20 academic sources</li>
+<li>Follow ACL citation style</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table></div>
 <p>5. <strong>Evaluation Criteria</strong></p>
-
-<p>5.1 <strong>Technical Criteria</strong> (60%)<br />
-- Originality and creativity of approach (20%)<br />
-- Technical depth and complexity (20%)<br />
-- Experimental methodology (10%)<br />
+<p>5.1 <strong>Technical Criteria</strong> (60%)<br/>
+- Originality and creativity of approach (20%)<br/>
+- Technical depth and complexity (20%)<br/>
+- Experimental methodology (10%)<br/>
 - Results and analysis (10%)</p>
-
-<p>5.2 <strong>Documentation Criteria</strong> (40%)<br />
-- ACL paper quality (15%)<br />
-- Clarity of writing (10%)<br />
-- Presentation and visualization (7%)<br />
+<p>5.2 <strong>Documentation Criteria</strong> (40%)<br/>
+- ACL paper quality (15%)<br/>
+- Clarity of writing (10%)<br/>
+- Presentation and visualization (7%)<br/>
 - References and related work (8%)</p>
-
 <p><strong>Course Policies</strong></p>
-
-<p><strong>Attendance</strong><br />
+<p><strong>Attendance</strong><br/>
 Physical attendance in class is a crucial component of your learning in this course. Students are required to attend a minimum of 70% of all class sessions in person. Failure to meet this attendance requirement will result in an automatic F grade for the course, regardless of performance in other assessments.</p>
-
-<ul depth="0">
-	<li index="0">Attendance will be taken at the beginning of each class</li>
-	<li index="0">Medical emergencies and university-approved activities must be documented</li>
-	<li index="1">Contact the TA before class when possible for any anticipated absence</li>
+<ul>
+<li>Attendance will be taken at the beginning of each class</li>
+<li>Medical emergencies and university-approved activities must be documented</li>
+<li>Contact the TA before class when possible for any anticipated absence</li>
 </ul>
-
 <p><strong>Late Work </strong></p>
-
-<ul depth="0">
-	<li index="0">All assignments must be submitted through the course submission system by the specified due date and time</li>
-	<li index="1">The submission system will automatically close at the deadline</li>
-	<li index="2">No extensions will be granted except for documented emergencies</li>
-	<li index="0">Late work will not be accepted for credit under any circumstances</li>
-	<li index="1">While the submission portal will remain accessible after deadlines, you may continue to submit work for learning purposes and feedback.  No points will be awarded for any submissions after the deadline</li>
+<ul>
+<li>All assignments must be submitted through the course submission system by the specified due date and time</li>
+<li>The submission system will automatically close at the deadline</li>
+<li>No extensions will be granted except for documented emergencies</li>
+<li>Late work will not be accepted for credit under any circumstances</li>
+<li>While the submission portal will remain accessible after deadlines, you may continue to submit work for learning purposes and feedback.  No points will be awarded for any submissions after the deadline</li>
 </ul>
-
 <p><strong>Best Practices</strong></p>
-
-<ul depth="0">
-	<li index="0">Start assignments early to avoid technical issues</li>
-	<li index="1">Submit well before the deadline to avoid last-minute complications</li>
-	<li index="2">Check your submission confirmation to ensure successful upload</li>
-	<li index="3">Set up calendar reminders for all due dates listed in the course schedule</li>
+<ul>
+<li>Start assignments early to avoid technical issues</li>
+<li>Submit well before the deadline to avoid last-minute complications</li>
+<li>Check your submission confirmation to ensure successful upload</li>
+<li>Set up calendar reminders for all due dates listed in the course schedule</li>
 </ul>
-
 <p><strong>Academic Integrity</strong></p>
-
 <p>All submitted work must be your own original work. This includes code, analysis, and documentation.</p>
-
 <p><strong>Violations leading to automatic F grade:</strong></p>
-
-<ul depth="0">
-	<li index="0">Copying or sharing code/solutions</li>
-	<li index="1">Submitting others' work</li>
+<ul>
+<li>Copying or sharing code/solutions</li>
+<li>Submitting others' work</li>
 </ul>
-
 <p><strong>Acceptable:</strong></p>
-
-<ul depth="0">
-	<li index="0">Discussing concepts with classmates</li>
-	<li index="2">Seeking help from instructors/TAs</li>
+<ul>
+<li>Discussing concepts with classmates</li>
+<li>Seeking help from instructors/TAs</li>
 </ul>
-
 <p>Maintain academic integrity - it's fundamental to your learning and professional development.</p>
-
 <p><strong>Note</strong>: This syllabus is subject to change. Any modifications will be announced in class and posted online.</p>
-
+<p> </p>
 <p> </p>
 
-<p> </p>
+  </main>
+  <footer>Chaklam Silpasuwanchai · Academic Website</footer>
 </div>
-      
-  </div>
-
-</article>
-
-
-  </div>
-
-              </section>
-
-                </div>
-  </div>
-
-
-  </div>
-
-    
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/45","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"ca2879f48cdb45ed2124c1765cc48d136f6f3cc383b0dceb13654b64c58e3fca"}}</script>
-<script src="sites/default/files/js/js_kWXbNWhE9QuzvG5bctPc3Xwki-PYq6OX-qnv44PZvSI.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
-<script src="sites/default/files/js/js_wBDTa1Hsny_hL6Irg0y97RE_sjXR3rRWNo2fFZbFU08.js"></script>
-
-  </body>
+</body>
 </html>
