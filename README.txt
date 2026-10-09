@@ -1,0 +1,1 @@
+Open index.html. Structured records have section-specific columns. Original descriptions and hyperlinks remain in the description field; extracted venue/organization/amount values are additionally displayed in separate columns. Unknown fields are shown as em dash. Live site unchanged.
