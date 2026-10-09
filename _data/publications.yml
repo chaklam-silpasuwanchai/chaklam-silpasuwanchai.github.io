@@ -1,97 +1,135 @@
 - html: '<p class="pub-entry">Mishra, D., Chumnanvej, S., Trivedi, V., Modi A., and <strong>Silpasuwanchai, C.</strong> SpineXR-VQA:
     A Clinically-Validated Visual Question Answering Dataset for Spine X-Rays. <em>ACM Trans. Comput. Healthcare</em>, 2026.</p>'
+  year: 2026
 - html: '<p class="pub-entry">Shah, A., Mishra, D., and <strong>Silpasuwanchai, C.</strong> Too Nice to Tell the Truth: Quantifying
     Agreeableness-Driven Sycophancy in Role-Playing Language Models. <em>ACL 2026</em>. <em>Acceptance rate: 2296/12148=18.9%
     </em></p>'
+  year: 2026
 - html: '<p class="pub-entry">Kaewsawee, P., <strong>Silpasuwanchai, C.</strong>, and Anutariya, C. PolicyKG: An Agentic LLM
     Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs. <em>International Joint Conference on Knowledge
     Graphs 2026</em>. <em>Acceptance rate: 26%</em></p>'
+  year: 2026
 - html: '<p class="pub-entry">Parmar, M. and <strong>Silpasuwanchai, C.</strong> From Overload to Convergence: Supporting
     Multi-Issue Human–AI Negotiation with Bayesian Visualization. <em>CHI 2026</em>. <em>Acceptance rate: 1703/6730=25.3%
     </em>(<strong>Best Paper Awards 1%</strong>)</p>'
+  year: 2026
 - html: '<p class="pub-entry">Lameesa, A., <strong>Silpasuwanchai, C.</strong>, and Alam, M. S. B. VG-CALF: A vision-guided
     cross-attention and late-fusion network for radiology images in Medical Visual Question Answering. <em>Neurocomputing</em>,
     613, 2025. <em>(IF: 5.5)</em></p>'
+  year: 2025
 - html: '<p class="pub-entry">Jain, R., Tripathi, N. K., Pant, M., Anutariya, C., and <strong>Silpasuwanchai, C</strong>.
     Investigating Gender and Age Variability in Diabetes Prediction: A Multi-Model Ensemble Learning Approach. <em>IEEE Access</em>.
     2024. <em>(IF: 3.4)</em></p>'
+  year: 2024
 - html: '<p class="pub-entry">Koirala, A., Charnparttaravanit, P., and <strong>Silpasuwanchai, C.</strong> Multi-document
     Summarization in Medical Literature Using PICO-Masking Approach. In <em>International Conference on Data Science and Artificial
     Intelligence</em> (pp. 32-49). 2024. <em>Acceptance rate: 21/69=30.4% </em></p>'
+  year: 2024
 - html: '<p class="pub-entry">Soingern, N., Sinsamersuk, A., Chatnuntawech, I., and <strong>Silpasuwanchai, C</strong>. Data
     Augmentation for EEG Motor Imagery Classification Using Diffusion Model. In <em>International Conference on Data Science
     and Artificial Intelligence</em> (pp. 111-126). 2024. <em>Acceptance rate: 21/69=30.4% </em></p>'
+  year: 2024
 - html: '<p class="pub-entry">Shafana, F. and <strong>Silpasuwanchai, C</strong>. Investigating the Role of Gesture Modalities
     and Screen Size in an AR 3D Game. <em>Multimedia Tools and Publications</em>. 2023. <em>(IF: 3.6)</em></p>'
+  year: 2023
 - html: '<p class="pub-entry">Pananookooln, C., Akaranee, J., and <strong>Silpasuwanchai, C</strong>. Comparing Selective
     Masking Methods for Depression Detection in Social Media. <em>Computational Linguistics</em>, 1-29. 2023. <em>(IF: 7.778)</em></p>'
+  year: 2023
 - html: '<p class="pub-entry">Sunthorn, W., Le Mercier, C., and <strong>Silpasuwanchai, C.</strong> Making time perception
     shorter with pitch and interval patterns. <em>Behaviour and Information Technology</em>, 1-11. 2023. <em>(IF: 3.32)</em></p>'
+  year: 2023
 - html: '<p class="pub-entry">Shakya, S., Taparugssanagorn, A., and <strong>Silpasuwanchai, C</strong>. (2023). Convolutional
     Neural Network-Based Low-Powered Wearable Smart Device for Gait Abnormality Detection. <em>IoT</em>, 4(2), 57-77. 2023.
     <em>(CiteScore: 5.23)</em></p>'
+  year: 2023
 - html: '<p class="pub-entry">Parmar, M. and <strong>Silpasuwanchai, C</strong>. Impact of User Mobility on Attentional Tunneling
     in Handheld AR. In <em>Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems</em> (pp. 1-6).
     2023. <em>Acceptance rate: TBD </em></p>'
+  year: 2023
 - html: '<p class="pub-entry">Wabina, R. S., and <strong>Silpasuwanchai, C</strong>. Neural stochastic differential equations
     network as uncertainty quantification method for EEG source localization. <em>Biomedical Physics and Engineering Express</em>.
     2022. <em>(IF: 1.4)</em></p>'
+  year: 2022
 - html: '<p class="pub-entry">Niksirat, KS., <strong>Silpasuwanchai, C.</strong>, Cheng, P. and Ren, X. Attention Regulation
     Framework: Designing Self-Regulated Mindfulness Technologies. <em>ACM Transactions on Computer-Human Interaction.</em>
     26, 6, Article 39 (November 2019), 44 pages. DOI: https://doi.org/10.1145/3359593. <em>(IF: 4.106)</em></p>'
+  year: 2019
 - html: '<p class="pub-entry">Ren, X and <strong>Silpasuwanchai, C.</strong>. Human-Engaged Computing. The Future of Human-Computer
     Interaction. <em>CCF Transactions on Pervasive Computing and Interaction 1(1).</em> 2019. <em>(IF: 2.59)</em></p>'
+  year: 2019
 - html: '<p class="pub-entry">Niksirat, KS., <strong>Silpasuwanchai, C.</strong> and Ren, X. Sex Differences in relationship
     between flow proneness in everyday life and gray matter of the dopaminergic system: a cross-sectional study. <em>Personality
     and Individual Differences 141.</em> 2019. <em>(IF: 3.95)</em></p>'
+  year: 2019
 - html: '<p class="pub-entry">Delamare, W., <strong>Silpasuwanchai, C.</strong>, Sarcar, S., Shiraki, T. and Ren, X. 2019.
     On Gesture Combination: An Exploration of a Solution to Augment Gesture Interaction. <em>Proc. ACM ISS 2019</em>. <em>(Acceptance
     rate: 26/85=30.6%)</em></p>'
+  year: 2019
 - html: '<p class="pub-entry">Sarcar, S., Jokinen, J., Oulasvirta, A., Wang, Z., <strong>Silpasuwanchai, C.</strong> and Ren,
     X. Ability-Based Optimization of Touchscreen Interactions. <em>IEEE Pervasive Computing 17(1).</em> 2018. <em>(IF: 1.6)</em></p>'
+  year: 2018
 - html: '<p class="pub-entry">Niksirat, KS., Sarcar, C., Sun, H., Law, E., Clemmensen, T., Bardzell, J., Oulasvirta, A., <strong>Silpasuwanchai
     C.</strong>, Light A., Ren X.. Approaching Engagement Towards Human-Engaged Computing . <em>Proc. ACM CHI SIG 2018</em>.
     <em>(Acceptance rate: 43/108=39.8%)</em></p>'
+  year: 2018
 - html: <p class="pub-entry"><strong>Silpasuwanchai, C.</strong> and Ren, X. A Quick Look at Game Engagement Theories. <em>Wiley
     Handbook of Human Computer Interaction 2.</em> 2018.</p>
+  year: 2018
 - html: '<p class="pub-entry">Sarcar S., Jokinen, J., Oulasvirta, A., Ren, X., <strong>Silpasuwanchai, C.</strong>, and Wang,
     Z. Ability-Based Optimization: Designing Smartphone Text-Entry Interface for Older Adults. <em>INTERACT 4(1), 2017</em>.
     <em>(IF: N/A)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Ahmed, M.H.H., <strong>Silpasuwanchai, C.</strong>, Niksirat, K.S. and Ren, X. Understanding
     the Role of Human Senses in Interactive Meditation. <em>Proc. ACM CHI 2017</em>. <em>(Acceptance rate: 1000/5000=20%)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Jokinen, J., Sarcar, S., Oulasvirta, A., <strong>Silpasuwanchai, C.</strong>, Wang, Z. and Ren,
     X. Modelling Learning of New Keyboard Layouts. <em>Proc. ACM CHI 2017</em>. (<strong>Best Paper Awards 1%</strong>) <em>(Acceptance
     rate: 1000/5000=20%)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Niksirat, KS., <strong>Silpasuwanchai, C.</strong>, Ahmed, M.H.H., Peng, C. and Ren, X. A Framework
     for Interactive Meditation Using Attention Regulation. <em>Proc. ACM CHI 2017.</em> <em>(Acceptance rate: 1000/5000=20%)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Niksirat, K., <strong>Silpasuwanchai, C.</strong>, Ren, X., and Wang, Z. Towards Cognitive Enhancement
     of the Elderly: A UX Study of a Multitasking Motion Video Game. <em>Proc. ACM CHI LBW 2017</em>. <em>(Acceptance rate:
     Not Disclosed)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Sarcar S., N., Munteanu, C., Jokinen, J., Oulasvirta, A., <strong>Silpasuwanchai, C.</strong>,
     Charness, N., Dunlop, M. and Ren, X. Designing Mobile Interactions for the Ageing Populations. <em>Proc. ACM CHI Workshop
     2017.</em> <em>(Acceptance rate: Not Disclosed)</em></p>'
+  year: 2017
 - html: '<p class="pub-entry">Putra, H.A., <strong>Silpasuwanchai, C.</strong> and Ren, X. AirSqueeze: An Air-Based Game Input
     Device. <em>ICIC Express Letter</em>. 2016. <em>(IF: N/A)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry">Niksirat, KS., <strong>Silpasuwanchai, C.</strong>, Wang, Z., Fan, J. and Ren, X. Age-Related
     Differences in Gross Motor Skills. <em>Proc. ACM IxAP 2016</em>. <em>Acceptance rate: 11/22=50%)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry">Niksirat, KS., <strong>Silpasuwanchai, C.</strong>, Wang, Z., Fan, J. and Ren, X. How Skill-Balancing
     Impact the Elderly Player Experience. <em>Proc. IEEE Signal Processing 2016.</em> <em>(Acceptance rate: Not Disclosed)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry">Sarcar, S., Jokinen, J., Oulasvirta, A., <strong>Silpasuwanchai, C.</strong>, Wang, Z. and Ren,
     X. Towards Ability-Based Optimization for Aging Users. <em>Proc. ACM IxAP 2016.</em> <em>Acceptance rate: 11/22=50%)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry"><strong>Silpasuwanchai, C.</strong>, Ma, X., Shigemasu, H., and Ren, X. Developing a Comprehensive
     Engagement Framework of Gamification for Reflective Learning. <em>Proc. ACM DIS 2016</em>. <em>(Acceptance rate: 108/418=26%)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry">Dim, N.K., <strong>Silpasuwanchai, C.</strong>, Sarcar, S. and Ren, X. Designing Mid-Air TV
     Gestures for Blind People Using User- and Choice-Based Elicitation Approach. <em>Proc. ACM DIS 2016</em>. <em>(Acceptance
     rate: 108/418=26%)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry">Charness, N., Dunlop, M., Munteanu, C., Nicol, E., Oulasvirta, A., Ren, X., Sarcar S. and <strong>Silpasuwanchai,
     C.</strong>. Rethinking Mobile Interfaces for Older Adults. <em>Proc. ACM CHI SIG 2016</em>. <em>(Acceptance rate: Not
     Disclosed)</em></p>'
+  year: 2016
 - html: '<p class="pub-entry"><strong>Silpasuwanchai, C.</strong> and Ren, X. Designing Concurrent Full-Body Gestures for
     Intense Gameplay. <em>International Journal of Human Computer Studies 80 (1)</em>, Elsevier, 2015. <em>(IF: 5.4)</em></p>'
+  year: 2015
 - html: '<p class="pub-entry">Law, E., <strong>Silpasuwanchai, C.</strong>, Ren, X., Bardzell, J., Clemmensen, T., Liu, Y.
     Leveraging and Integrating Eastern and Western Insights for Human Engagement Studies in HCI. <em>Proc. ACM CHI Workshop
     2015</em>. <em>(Acceptance rate: Not Disclosed)</em></p>'
+  year: 2015
 - html: '<p class="pub-entry">Mizobata, R., <strong>Silpasuwanchai, C.</strong> and Ren, X. Only for casual players? Investigating
     Player Differences in Full-Body Game Interaction. <em>Proc. ACM CCHI 2014</em>. <em>(Acceptance rate: 17/55=30.9%)</em></p>'
+  year: 2014
 - html: '<p class="pub-entry"><strong>Silpasuwanchai, C.</strong> and Ren, X. Jump and Shoot! Prioritizing Primary and Alternative
     Body Gestures for Intense Gameplay. <em>Proc. ACM CHI 2014</em>. <em>(Acceptance rate: 470/2064=22.8%)</em></p>'
+  year: 2014
