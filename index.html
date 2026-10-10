@@ -196,9 +196,9 @@ layout: null
           <div class="cv-table">
             <div class="cv-head cv-row"><span>Year</span><span>Award</span><span>Organization</span></div>{% for item in
             site.data.awards %}<div class="cv-row">
-              <div>{{ item.year }}</div>
-              <div>{{ item.award }}</div>
-              <div>{{ item.organization }}</div>
+              <div><span class="entry-date">{{ item.year }}</span></div>
+              <div class="entry-description">{{ item.award }}</div>
+              <div class="record-extra organization">{{ item.organization }}</div>
             </div>{% endfor %}
           </div>
         </section>
