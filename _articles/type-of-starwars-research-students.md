@@ -1,7 +1,6 @@
 ---
 title: Type of "Starwars" research students
 legacy_id: 39
-permalink: /node/39.html
 category: Blogs
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to write paper
 legacy_id: 12
-permalink: /node/12.html
 category: Research Tips
 ---
 

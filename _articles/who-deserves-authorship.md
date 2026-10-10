@@ -1,7 +1,6 @@
 ---
 title: Who deserves authorship?
 legacy_id: 24
-permalink: /node/24.html
 category: Blogs
 ---
 

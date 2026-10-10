@@ -1,7 +1,6 @@
 ---
 title: What to do when I feel stressed out and unhappy
 legacy_id: 17
-permalink: /node/17.html
 category: Blogs
 ---
 

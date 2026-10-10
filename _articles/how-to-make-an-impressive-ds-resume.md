@@ -1,7 +1,6 @@
 ---
 title: How to make an impressive DS resume?
 legacy_id: 35
-permalink: /node/35.html
 category: Blogs
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: I wrote a PDF about top-tier research
 legacy_id: 43
-permalink: /node/43.html
 category: Blogs
 ---
 

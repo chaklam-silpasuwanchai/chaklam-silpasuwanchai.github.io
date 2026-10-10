@@ -1,7 +1,6 @@
 ---
 title: How to be competent?
 legacy_id: 21
-permalink: /node/21.html
 category: Blogs
 ---
 

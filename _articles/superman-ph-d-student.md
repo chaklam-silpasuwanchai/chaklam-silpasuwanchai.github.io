@@ -1,7 +1,6 @@
 ---
 title: '"Superman" Ph.D. student'
 legacy_id: 22
-permalink: /node/22.html
 category: Blogs
 ---
 

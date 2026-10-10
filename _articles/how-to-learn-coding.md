@@ -1,7 +1,6 @@
 ---
 title: How to learn coding?
 legacy_id: 37
-permalink: /node/37.html
 category: Blogs
 ---
 

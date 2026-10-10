@@ -1,7 +1,6 @@
 ---
 title: Common mistakes of Ph.D./Master student
 legacy_id: 30
-permalink: /node/30.html
 category: Blogs
 ---
 

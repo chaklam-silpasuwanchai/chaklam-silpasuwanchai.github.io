@@ -1,7 +1,6 @@
 ---
 title: Urgent vs. Important?
 legacy_id: 41
-permalink: /node/41.html
 category: Blogs
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Essence of great research
 legacy_id: 27
-permalink: /node/27.html
 category: Blogs
 ---
 

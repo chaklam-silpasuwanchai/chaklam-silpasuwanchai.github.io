@@ -1,7 +1,6 @@
 ---
 title: How to find related work efficiently
 legacy_id: 8
-permalink: /node/8.html
 category: Research Tips
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: What is and is NOT research contributions
 legacy_id: 9
-permalink: /node/9.html
 category: Research Tips
 ---
 

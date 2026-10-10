@@ -1,7 +1,6 @@
 ---
 title: Time management
 legacy_id: 23
-permalink: /node/23.html
 category: Blogs
 ---
 

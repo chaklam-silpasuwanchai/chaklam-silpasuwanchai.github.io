@@ -1,7 +1,6 @@
 ---
 title: 21st century skills
 legacy_id: 18
-permalink: /node/18.html
 category: Blogs
 ---
 

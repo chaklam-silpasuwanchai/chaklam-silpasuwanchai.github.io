@@ -1,7 +1,6 @@
 ---
 title: Five universal traits of effective researchers
 legacy_id: 3
-permalink: /node/3.html
 category: Blogs
 ---
 

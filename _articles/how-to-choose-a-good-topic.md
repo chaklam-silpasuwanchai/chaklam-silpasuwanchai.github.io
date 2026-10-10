@@ -1,7 +1,6 @@
 ---
 title: How to choose a good topic
 legacy_id: 7
-permalink: /node/7.html
 category: Research Tips
 ---
 

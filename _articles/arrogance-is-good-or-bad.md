@@ -1,7 +1,6 @@
 ---
 title: Arrogance is good or bad?
 legacy_id: 20
-permalink: /node/20.html
 category: Blogs
 ---
 

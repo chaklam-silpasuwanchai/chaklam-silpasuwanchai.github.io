@@ -1,7 +1,6 @@
 ---
 title: Mindset and behaviors for success
 legacy_id: 31
-permalink: /node/31.html
 category: Blogs
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Which venues should I submit
 legacy_id: 13
-permalink: /node/13.html
 category: Research Tips
 ---
 

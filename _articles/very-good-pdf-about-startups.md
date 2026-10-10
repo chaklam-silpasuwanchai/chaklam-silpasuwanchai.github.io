@@ -1,7 +1,6 @@
 ---
 title: Very good PDF about startups
 legacy_id: 42
-permalink: /node/42.html
 category: Blogs
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Everybody is a genius
 legacy_id: 19
-permalink: /node/19.html
 category: Blogs
 ---
 

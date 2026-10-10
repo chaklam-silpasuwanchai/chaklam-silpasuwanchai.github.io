@@ -1,7 +1,6 @@
 ---
 title: What is the purpose of Ph.D.
 legacy_id: 26
-permalink: /node/26.html
 category: Blogs
 ---
 

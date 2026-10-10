@@ -1,7 +1,6 @@
 ---
 title: Difference between Masters and Beginners
 legacy_id: 25
-permalink: /node/25.html
 category: Blogs
 ---
 

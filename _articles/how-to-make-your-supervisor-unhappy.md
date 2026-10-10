@@ -1,7 +1,6 @@
 ---
 title: How to make your supervisor "unhappy"
 legacy_id: 28
-permalink: /node/28.html
 category: Blogs
 ---
 
@@ -31,4 +30,4 @@ If you keep making your supervisor unhappy, there is a 99% chance your supervis
 
 **The TLDR is that your supervisor is also human.  He/she is nice but to only a certain limit.    Not to mention that almost all professors in the world believe that a Ph.D. is not only about knowledge, but also of one's character.**
 
-Note: If you want to know how to make your supervisor happy, instead, read[Superman Ph.D. student.](https://chaklam.com/node/22)
+Note: If you want to know how to make your supervisor happy, instead, read[Superman Ph.D. student.](/articles/superman-ph-d-student/)
