@@ -37,11 +37,18 @@
                     <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
                 </div>
                 <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
-                    <h3 id="sidebar-blogs-heading">Blog Articles</h3>
+                    <h3 id="sidebar-blogs-heading">Articles</h3>
+                    <h4>Research Tips</h4>
                     <ul>
-                        {% for article in site.articles %}
+                        {% for article in site.data.articles %}{% if article.category == 'Research Tips' %}
                         <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-                        {% endfor %}
+                        {% endif %}{% endfor %}
+                    </ul>
+                    <h4>Blogs</h4>
+                    <ul>
+                        {% for article in site.data.articles %}{% if article.category == 'Blogs' %}
+                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+                        {% endif %}{% endfor %}
                     </ul>
                 </section>
             </aside>
