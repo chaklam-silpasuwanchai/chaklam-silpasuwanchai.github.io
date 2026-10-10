@@ -13,7 +13,7 @@ Before using this process set [the target which conference you will submit](/art
 * [Top-tier research](/articles/i-wrote-a-pdf-about-top-tier-research/)
 * [How to choose a good topic](/articles/how-to-choose-a-good-topic/)
 * [The essence](/articles/essence-of-great-research/)[of great research](/articles/which-venues-should-i-submit/)
-* [4 short tips on thinking about research problems](http://chaklam.com/node/15)
+* [4 short tips on thinking about research problems](/articles/research-process/)
 * [What is and is NOT contributions?](/articles/what-is-and-is-not-research-contributions/)
 
 As an overview, the research process can be separated into three phases: (1) identify the problem and solution (40%), (2) develop solutions and conduct experiments (30%), and (3) write, rewrite, refine (30%).
