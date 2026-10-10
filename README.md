@@ -2,15 +2,6 @@
 
 This repository is the source for **https://chaklam.com**. GitHub Pages publishes the Jekyll website when changes are pushed to the branch configured in **GitHub → Settings → Pages**.
 
-## Everyday editing (in GitHub or VS Code)
-
-1. Open the repository in GitHub's editor or clone/open it in VS Code.
-2. Make the change in the relevant file (see below).
-3. Commit the changes and push to the publishing branch. GitHub Pages rebuilds the site automatically.
-4. Wait for the Pages deployment to succeed under **Actions**, then hard-refresh the website if you still see an old version.
-
-You **do not need to install Ruby or Jekyll** to edit and publish through GitHub Pages.
-
 ## What to edit
 
 | To change | Edit |
@@ -62,5 +53,3 @@ Write your article here in Markdown.
 - **Broken article link?** Use `/articles/<markdown-filename-without-.md>/`.
 - **Broken image?** Check exact spelling and capitalization of the path in `assets/`.
 - **Custom domain stops working?** Confirm `CNAME` still contains `chaklam.com` and check GitHub **Settings → Pages**.
-
-This project no longer uses Drupal's `node/` URLs or `sites/default/files/` directories. Old source backups and unused Drupal CSS/JS were moved to a separate legacy backup ZIP during cleanup.
