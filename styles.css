@@ -91,8 +91,8 @@ main.blog-article li {
 main.blog-article img {
   display: block;
   width: auto;
-  max-width: min(100%, 450px);
-  width: 400px;
+  max-width: min(100%, 400px);
+  height: auto;
   margin: 20px auto;
 }
 
@@ -103,4 +103,64 @@ main.blog-article h2 {
 
 main.blog-article h3 {
   font-size: 17px;
+}
+/* Unified Awards table typography, matching academic records */
+#awards .cv-row {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 9px 8px;
+}
+#awards .cv-head {
+  font-size: 11px;
+  line-height: 1.55;
+  font-weight: 700;
+  color: #657689;
+  background: #f5f8fc;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccd9e8;
+}
+#awards .cv-row:not(.cv-head) .entry-date {
+  font-size: 12px;
+  font-weight: 700;
+  color: #174d88;
+}
+#awards .cv-row .record-extra {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #4c5d6d;
+}
+/* News dropdown matches the main news table */
+#news .older-news > .record-list {
+  margin-top: 0;
+}
+#news .older-news .record-row {
+  grid-template-columns: 110px minmax(0, 1fr);
+}
+@media (max-width: 740px) {
+  #news .older-news .record-row {
+    grid-template-columns: 105px minmax(0, 1fr);
+  }
+}
+@media (max-width: 420px) {
+  #news .older-news .record-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Homepage introduction: compact, consistent with academic content */
+.main .intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+/* Match heading and data column starting positions across record tables */
+@media (min-width: 741px) {
+  .record-section .record-list > .record-head,
+  .record-section .record-list > .record-row {
+    padding-left: 8px;
+    padding-right: 8px;
+    column-gap: 14px;
+  }
 }

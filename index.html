@@ -109,20 +109,19 @@ layout: null
             </li>
             {% endfor %}
 
-            <!-- Older news dropdown -->
-            <details class="older-news">
-              <summary>Show older news</summary>
-
-              <ul class="record-list">
-                {% for item in site.data.news offset:10 %}
-                <li class="record-row record-news">
-                  <span class="entry-date">{{ item.date }}</span>
-                  <span class="entry-description">{{ item.description }}</span>
-                </li>
-                {% endfor %}
-              </ul>
-            </details>
           </ul>
+          <!-- Older news dropdown -->
+          <details class="older-news">
+            <summary>Show older news</summary>
+            <ul aria-label="Older news records" class="record-list">
+              {% for item in site.data.news offset:10 %}
+              <li class="record-row record-news">
+                <span class="entry-date">{{ item.date }}</span>
+                <span class="entry-description">{{ item.description }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </details>
         </section>
         <section id="publications">
           <h2>Selected Publications</h2>{% for item in site.data.selected_publications %}{{ item.html }}{% endfor %}<p>

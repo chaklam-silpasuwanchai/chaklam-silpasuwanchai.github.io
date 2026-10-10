@@ -3,28 +3,49 @@ layout: null
 ---
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Blog — Chaklam Silpasuwanchai</title>
     <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 </head>
-
 <body>
     <div class="site">
         <header>
             <h1>Blog</h1>
             <div class="subtitle">Articles and reflections</div>
         </header>
-        <nav><a href="{{ '/' | relative_url }}">Home</a></nav>
-        <main class="main standalone">
-            <h2>Articles</h2>
-            <ul class="article-archive">{% for article in site.data.articles %}<li><a
-                        href="{{ article.url | relative_url }}">{{ article.title }}</a></li>{% endfor %}</ul>
-        </main>
+        <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a></nav>
+        <div class="columns">
+            <aside class="profile">
+                <img alt="Chaklam Silpasuwanchai" src="{{ '/sites/default/files/inline-images/chaklam.png' | relative_url }}">
+                <h2>Chaklam Silpasuwanchai</h2>
+                <div class="links">
+                    <a href="https://github.com/chaklam-silpasuwanchai/">GitHub ↗</a>
+                    <a href="https://drive.google.com/file/d/1ioJe19N-g8-2ctuMkj-zfHC8IlpXhn31/view?usp=sharing">CV ↗</a>
+                    <a href="https://scholar.google.com/citations?user=q0iwoYIAAAAJ&amp;hl=en">Google Scholar ↗</a>
+                    <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom ↗</a>
+                    <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
+                </div>
+                <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
+                    <h3 id="sidebar-blogs-heading">Blog Articles</h3>
+                    <ul>
+                        {% for article in site.data.articles %}
+                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </aside>
+            <main class="main">
+                <h2>Articles</h2>
+                <ul class="article-archive">
+                    {% for article in site.data.articles %}
+                    <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+                    {% endfor %}
+                </ul>
+            </main>
+        </div>
         <footer>Chaklam Silpasuwanchai</footer>
     </div>
 </body>
-
 </html>
