@@ -18,7 +18,28 @@
         <nav aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">›</span> <a
                 href="{{ '/blog.html' | relative_url }}">Blog</a> <span aria-hidden="true">›</span> <span
                 aria-current="page">{{ page.title | escape }}</span></nav>
-        <main class="main standalone blog-article">{{ content }}</main>
+        <div class="columns">
+            <aside class="profile">
+                <img alt="Chaklam Silpasuwanchai" src="{{ '/sites/default/files/inline-images/chaklam.png' | relative_url }}" />
+                <h2>Chaklam Silpasuwanchai</h2>
+                <div class="links">
+                    <a href="https://github.com/chaklam-silpasuwanchai/">GitHub ↗</a>
+                    <a href="https://drive.google.com/file/d/1ioJe19N-g8-2ctuMkj-zfHC8IlpXhn31/view?usp=sharing">CV ↗</a>
+                    <a href="https://scholar.google.com/citations?user=q0iwoYIAAAAJ&hl=en">Google Scholar ↗</a>
+                    <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom ↗</a>
+                    <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
+                </div>
+                <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
+                    <h3 id="sidebar-blogs-heading">Blog Articles</h3>
+                    <ul>
+                        {% for article in site.articles %}
+                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </aside>
+            <main class="main blog-article">{{ content }}</main>
+        </div>
         <footer>Chaklam Silpasuwanchai</footer>
     </div>
 </body>
