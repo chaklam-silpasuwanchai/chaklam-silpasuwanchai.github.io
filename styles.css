@@ -67,39 +67,41 @@
   color: #174d88;
   font-weight: 600;
   padding: 10px 0;
+  font-size: 11px;
 }
 
 .older-news summary:hover {
   text-decoration: underline;
 }
 
-/* Blog article typography */
-.blog-article,
-article.blog-article,
-.blog-post,
-.post-content {
+/* Blog post formatting */
+main.blog-article {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.65;
 }
 
-/* Paragraphs and lists */
-.blog-article p,
-.blog-article li,
-.blog-post p,
-.blog-post li,
-.post-content p,
-.post-content li {
+/* Blog paragraphs and lists */
+main.blog-article p,
+main.blog-article li {
   font-size: 14px;
   line-height: 1.65;
 }
 
 /* Blog images */
-.blog-article img,
-.blog-post img,
-.post-content img {
+main.blog-article img {
   display: block;
-  max-width: min(100%, 500px);
+  width: auto;
+  max-width: min(100%, 450px);
   height: auto;
   margin: 20px auto;
+}
+
+/* Blog headings */
+main.blog-article h2 {
+  font-size: 20px;
+}
+
+main.blog-article h3 {
+  font-size: 17px;
 }
