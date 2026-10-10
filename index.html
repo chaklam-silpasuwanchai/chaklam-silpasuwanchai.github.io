@@ -113,12 +113,14 @@ layout: null
             <details class="older-news">
               <summary>Show older news</summary>
 
-              {% for item in site.data.news offset:10 %}
-              <li class="record-row record-news">
-                <span class="entry-date">{{ item.date }}</span>
-                <span class="entry-description">{{ item.description }}</span>
-              </li>
-              {% endfor %}
+              <ul class="record-list">
+                {% for item in site.data.news offset:10 %}
+                <li class="record-row record-news">
+                  <span class="entry-date">{{ item.date }}</span>
+                  <span class="entry-description">{{ item.description }}</span>
+                </li>
+                {% endfor %}
+              </ul>
             </details>
           </ul>
         </section>

@@ -73,27 +73,33 @@
   text-decoration: underline;
 }
 
-/* Consistent blog typography */
-.blog-article {
+/* Blog article typography */
+.blog-article,
+article.blog-article,
+.blog-post,
+.post-content {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  line-height: 1.7;
-  color: #202b37;
+  line-height: 1.65;
 }
 
+/* Paragraphs and lists */
 .blog-article p,
-.blog-article li {
-  font-size: inherit;
-  line-height: inherit;
+.blog-article li,
+.blog-post p,
+.blog-post li,
+.post-content p,
+.post-content li {
+  font-size: 14px;
+  line-height: 1.65;
 }
 
-.blog-article h2 {
-  font-size: 20px;
-  line-height: 1.4;
-  margin-top: 26px;
-}
-
-.blog-article h3 {
-  font-size: 17px;
-  line-height: 1.4;
+/* Blog images */
+.blog-article img,
+.blog-post img,
+.post-content img {
+  display: block;
+  max-width: min(100%, 500px);
+  height: auto;
+  margin: 20px auto;
 }
