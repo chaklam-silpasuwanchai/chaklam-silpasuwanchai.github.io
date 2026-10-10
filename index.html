@@ -20,39 +20,9 @@ layout: null
       <h1>Chaklam Silpasuwanchai</h1>
       <div class="subtitle">Assistant Professor, Asian Institute of Technology</div>
     </header>
-    <nav aria-label="Main navigation"><a href="/">Home</a><a href="#news">News</a><a
-        href="#publications">Publications</a><a href="#grants">Grants</a><a href="#teaching">Teaching</a><a
-        href="#talks">Talks</a><a href="#service">Academic
-        Services</a><a href="#awards">Awards</a><a href="blog.html">Blog</a><a href="https://ait-brainlab.github.io/" target="_blank">AIT Brain Lab ↗</a>
-    </nav>
+    {% include navigation.html %}
     <div class="columns">
-      <aside class="profile"><img alt="Chaklam Silpasuwanchai" src="sites/default/files/inline-images/chaklam.png" />
-        <h2>Chaklam Silpasuwanchai</h2>
-        <div class="links">
-          <a href="https://github.com/chaklam-silpasuwanchai/">GitHub ↗</a>
-          <a href="https://drive.google.com/file/d/1ioJe19N-g8-2ctuMkj-zfHC8IlpXhn31/view?usp=sharing">CV ↗</a>
-          <a href="https://scholar.google.com/citations?user=q0iwoYIAAAAJ&hl=en">Google Scholar ↗</a>
-          <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom
-            ↗</a>
-          <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
-          <a href="mailto:chaklam@ait.asia">Email ↗</a>
-        </div>
-        <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
-          <h3 id="sidebar-blogs-heading">Articles</h3>
-          <h4>Research Tips</h4>
-          <ul>
-            {% for article in site.data.articles %}{% if article.category == 'Research Tips' %}
-            <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-            {% endif %}{% endfor %}
-          </ul>
-          <h4>Blogs</h4>
-          <ul>
-            {% for article in site.data.articles %}{% if article.category == 'Blogs' %}
-            <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-            {% endif %}{% endfor %}
-          </ul>
-        </section>
-      </aside>
+      {% include sidebar.html articles=true %}
       <main class="main">
         <div class="intro">
 

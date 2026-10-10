@@ -1,64 +1,20 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ page.title | escape }} — Chaklam Silpasuwanchai</title>
-    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | escape }} — Chaklam Silpasuwanchai</title>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 </head>
-
 <body>
-    <div class="site">
-        <header>
-            <h1>{{ page.title | escape }}</h1>
-            <div class="subtitle">{{ page.date | date: "%d %B %Y" }}{% if page.category %} · {{ page.category }}{% endif
-                %}</div>
-        </header>
-        <nav aria-label="Main navigation">
-            <a href="/">Home</a>
-            <a href="/#news">News</a>
-            <a href="/#publications">Publications</a>
-            <a href="/#grants">Grants</a>
-            <a href="/#teaching">Teaching</a>
-            <a href="/#talks">Talks</a>
-            <a href="/#service">Academic Services</a>
-            <a href="/#awards">Awards</a>
-            <a href="/blog.html">Blog</a>
-            <a href="https://ait-brainlab.github.io/" target="_blank">AIT Brain Lab ↗</a>
-        </nav>
-        <div class="columns">
-            <aside class="profile">
-                <img alt="Chaklam Silpasuwanchai" src="{{ '/sites/default/files/inline-images/chaklam.png' | relative_url }}" />
-                <h2>Chaklam Silpasuwanchai</h2>
-                <div class="links">
-                    <a href="https://github.com/chaklam-silpasuwanchai/">GitHub ↗</a>
-                    <a href="https://drive.google.com/file/d/1ioJe19N-g8-2ctuMkj-zfHC8IlpXhn31/view?usp=sharing">CV ↗</a>
-                    <a href="https://scholar.google.com/citations?user=q0iwoYIAAAAJ&hl=en">Google Scholar ↗</a>
-                    <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom ↗</a>
-                    <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
-                    <a href="mailto:chaklam@ait.asia">Email ↗</a>
-                </div>
-                <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
-                    <h3 id="sidebar-blogs-heading">Articles</h3>
-                    <h4>Research Tips</h4>
-                    <ul>
-                        {% for article in site.data.articles %}{% if article.category == 'Research Tips' %}
-                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-                        {% endif %}{% endfor %}
-                    </ul>
-                    <h4>Blogs</h4>
-                    <ul>
-                        {% for article in site.data.articles %}{% if article.category == 'Blogs' %}
-                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-                        {% endif %}{% endfor %}
-                    </ul>
-                </section>
-            </aside>
-            <main class="main blog-article">{{ content }}</main>
-        </div>
-        <footer>Chaklam Silpasuwanchai</footer>
-    </div>
+<div class="site">
+  <header><h1>{{ page.title | escape }}</h1>{% if page.date %}<div class="subtitle">{{ page.date | date: "%d %B %Y" }}{% if page.category %} · {{ page.category }}{% endif %}</div>{% elsif page.category %}<div class="subtitle">{{ page.category }}</div>{% endif %}</header>
+  {% include navigation.html %}
+  <div class="columns">
+    {% include sidebar.html articles=true %}
+    <main class="main blog-article">{{ content }}</main>
+  </div>
+  <footer>Chaklam Silpasuwanchai</footer>
+</div>
 </body>
-
 </html>
