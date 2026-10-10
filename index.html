@@ -30,7 +30,8 @@ layout: null
           <a href="https://github.com/chaklam-silpasuwanchai/">GitHub ↗</a>
           <a href="https://drive.google.com/file/d/1ioJe19N-g8-2ctuMkj-zfHC8IlpXhn31/view?usp=sharing">CV ↗</a>
           <a href="https://scholar.google.com/citations?user=q0iwoYIAAAAJ&hl=en">Google Scholar ↗</a>
-          <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom ↗</a>
+          <a href="https://ait-ac-th.zoom.us/j/99279790381?pwd=mIR9Gpd8WKvoK54ZvRxaLdaaZEI9aF.1">AIT Brain Lab zoom
+            ↗</a>
           <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
         </div>
         <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
@@ -55,7 +56,8 @@ layout: null
           <p>
             My research group,
             <a href="http://ait-brainlab.github.io" target="_blank">AIT Brain Lab</a>,
-            focuses on <strong>Human-AI Interaction</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Brain Computer Interfaces</strong>.
+            focuses on <strong>Human-AI Interaction</strong>, <strong>Natural Language Processing (NLP)</strong>, and
+            <strong>Brain Computer Interfaces</strong>.
           </p>
 
           <p>
@@ -99,11 +101,25 @@ layout: null
           <h2>News</h2>
           <ul aria-label="News records" class="record-list">
             <li aria-hidden="true" class="record-head"><span>Date</span><span>Update</span></li>
-            {% for item in site.data.news %}
-            <li class="record-row record-news"><span class="entry-date">{{ item.date }}</span>
-              <div class="entry-description">{{ item.description }}</div>
+            <!-- Latest 10 news items -->
+            {% for item in site.data.news limit:10 %}
+            <li class="record-row record-news">
+              <span class="entry-date">{{ item.date }}</span>
+              <span class="entry-description">{{ item.description }}</span>
             </li>
             {% endfor %}
+
+            <!-- Older news dropdown -->
+            <details class="older-news">
+              <summary>Show older news</summary>
+
+              {% for item in site.data.news offset:10 %}
+              <li class="record-row record-news">
+                <span class="entry-date">{{ item.date }}</span>
+                <span class="entry-description">{{ item.description }}</span>
+              </li>
+              {% endfor %}
+            </details>
           </ul>
         </section>
         <section id="publications">

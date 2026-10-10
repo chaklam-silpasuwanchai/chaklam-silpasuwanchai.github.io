@@ -56,3 +56,44 @@
   padding-left: 16px;
   margin-left: 0;
 }
+
+/* Expandable older news */
+.older-news {
+  margin-top: 12px;
+}
+
+.older-news summary {
+  cursor: pointer;
+  color: #174d88;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.older-news summary:hover {
+  text-decoration: underline;
+}
+
+/* Consistent blog typography */
+.blog-article {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #202b37;
+}
+
+.blog-article p,
+.blog-article li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.blog-article h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 26px;
+}
+
+.blog-article h3 {
+  font-size: 17px;
+  line-height: 1.4;
+}
