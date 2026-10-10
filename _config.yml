@@ -1,19 +1,20 @@
 title: Chaklam Silpasuwanchai
-url: https://www.chaklam.com
+url: "https://www.chaklam.com"
 baseurl: ""
+
 markdown: kramdown
+
 collections:
   articles:
     output: true
     permalink: /articles/:name/
+
 defaults:
   - scope:
       path: ""
       type: articles
     values:
       layout: post
+
 exclude:
   - README.md
-  - source-resume.tex
-  - README.txt
-  - README-columns.txt
