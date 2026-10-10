@@ -4,7 +4,7 @@ legacy_id: 23
 category: Blogs
 ---
 
-![drstrange](/assets/article-images/article-23-1.jpg)
+![drstrange](/assets/article-images/time-management-1.jpg)
 
 **Everyone has equal time but the difference is how they use their time.**
 

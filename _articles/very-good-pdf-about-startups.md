@@ -10,12 +10,12 @@ Recently, I have been pursuing myself a startup related to AI.  It has been ver
 
 This is some of the screenshot I really like:
 
-![5](/assets/article-images/article-42-1.jpg)
+![5](/assets/article-images/very-good-pdf-about-startups-1.jpg)
 
-![4](/assets/article-images/article-42-2.jpg)
+![4](/assets/article-images/very-good-pdf-about-startups-2.jpg)
 
-![3](/assets/article-images/article-42-3.jpg)
+![3](/assets/article-images/very-good-pdf-about-startups-3.jpg)
 
-![2](/assets/article-images/article-42-5.png)  
+![2](/assets/article-images/very-good-pdf-about-startups-5.png)  
   
-![1](/assets/article-images/article-42-4.png)
+![1](/assets/article-images/very-good-pdf-about-startups-4.png)

@@ -4,7 +4,7 @@ legacy_id: 27
 category: Blogs
 ---
 
-![einstein](/assets/article-images/article-27-1.png)
+![einstein](/assets/article-images/essence-of-great-research-1.png)
 
 **Great research is only two:***Vision* **and** *Work Hard*
 

@@ -4,7 +4,7 @@ legacy_id: 19
 category: Blogs
 ---
 
-![genius](/assets/article-images/article-19-1.jpg)I agree with Einstein.  Everybody is a genius and also not a genius at the same time.  You should not feel sad when you see somebody is better than you.  It is ridiculous to compare swimming between a fish and a dog.
+![genius](/assets/article-images/everybody-is-a-genius-1.jpg)I agree with Einstein.  Everybody is a genius and also not a genius at the same time.  You should not feel sad when you see somebody is better than you.  It is ridiculous to compare swimming between a fish and a dog.
 
 This teaches us several things:
 

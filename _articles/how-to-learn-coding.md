@@ -4,7 +4,7 @@ legacy_id: 37
 category: Blogs
 ---
 
-![code](/assets/article-images/article-37-1.png)
+![code](/assets/article-images/how-to-learn-coding-1.png)
 
 Some of you may struggle to learn coding.  
   

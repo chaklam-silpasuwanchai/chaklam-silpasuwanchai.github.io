@@ -6,7 +6,7 @@ category: Blogs
 
 > "We are what we repeatedly do.  Excellence, then, is not an act, but a habit." Aristotle
 
-![ice](/assets/article-images/article-21-1.jpg)
+![ice](/assets/article-images/how-to-be-competent-1.jpg)
 
 First off, **why we need to be competent?**  Well, competence is the core engine that drives us to our goal - whatever it be - to be rich, to be a good father/mother, to innovate, etc.  So competence is really important in both work and our life.
 

@@ -4,7 +4,7 @@ legacy_id: 28
 category: Blogs
 ---
 
-![angry](/assets/article-images/article-28-1.jpg)
+![angry](/assets/article-images/how-to-make-your-supervisor-unhappy-1.jpg)
 
 If you keep making your supervisor unhappy, there is a 99% chance your supervisor will simply ignore you in the long run nor trying to help you graduate.  So yes, you are on your own.
 

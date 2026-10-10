@@ -6,7 +6,7 @@ category: Research Tips
 
 ## Mindset
 
-![acl2023](/assets/article-images/article-13-1.png)
+![acl2023](/assets/article-images/which-venues-should-i-submit-1.png)
 
 Before knowing which venues to submit, let's first understand how do we know is good venues:
 

@@ -4,7 +4,7 @@ legacy_id: 24
 category: Blogs
 ---
 
-![question](/assets/article-images/article-24-1.png)When I was a Ph.D. student, it was often confusing to me who should I put as the "second author" vs. "third author", and the like.  Of course, as a young kid, I want to make everyone happy.  Fortunately, I was involved in an ethics campaign organized by Japan Research Society where I was asked to learn the "right" way of authorship crediting.  Here I would like to summarize some key points:
+![question](/assets/article-images/who-deserves-authorship-1.png)When I was a Ph.D. student, it was often confusing to me who should I put as the "second author" vs. "third author", and the like.  Of course, as a young kid, I want to make everyone happy.  Fortunately, I was involved in an ethics campaign organized by Japan Research Society where I was asked to learn the "right" way of authorship crediting.  Here I would like to summarize some key points:
 
 What is considered "**significant** contribution"
 

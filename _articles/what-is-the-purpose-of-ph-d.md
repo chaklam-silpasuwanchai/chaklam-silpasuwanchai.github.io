@@ -4,7 +4,7 @@ legacy_id: 26
 category: Blogs
 ---
 
-![me](/assets/article-images/article-26-1.jpg)
+![me](/assets/article-images/what-is-the-purpose-of-ph-d-1.jpg)
 
 Answering the purpose of Ph.D. will help answer whether you want a Ph.D.
 

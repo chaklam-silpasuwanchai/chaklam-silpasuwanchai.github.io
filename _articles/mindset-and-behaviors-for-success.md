@@ -6,7 +6,7 @@ category: Blogs
 
 I believe there are three primary mindset/behaviors that drive success:
 
-![thanachart](/assets/article-images/article-31-1.jpg)
+![thanachart](/assets/article-images/mindset-and-behaviors-for-success-1.jpg)
 
 1. **Having a growth mindset**
 

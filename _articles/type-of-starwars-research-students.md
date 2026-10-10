@@ -4,7 +4,7 @@ legacy_id: 39
 category: Blogs
 ---
 
-![starwars](/assets/article-images/article-39-1.png)
+![starwars](/assets/article-images/type-of-starwars-research-students-1.png)
 
 These are some types of Starwars based research students I can classify. Just for fun read though, don't take it seriously.
 

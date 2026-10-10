@@ -4,7 +4,7 @@ legacy_id: 18
 category: Blogs
 ---
 
-![century](/assets/article-images/article-18-1.jpg)
+![century](/assets/article-images/21st-century-skills-1.jpg)
 
 **In short, positivity is the ultimate skill in 21st century.**But let me make my case.
 

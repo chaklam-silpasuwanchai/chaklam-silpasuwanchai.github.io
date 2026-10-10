@@ -4,7 +4,7 @@ legacy_id: 8
 category: Research Tips
 ---
 
-![web](/assets/article-images/article-8-1.png)
+![web](/assets/article-images/how-to-find-related-work-efficiently-1.png)
 
 Finding related work can take forever if you do not understand the trick.  You can keep on googling with several keywords and you will find a thousand entries.  This is not efficient.  There is a better way.  I called it "**snowballing and backtracking**" technique:
 

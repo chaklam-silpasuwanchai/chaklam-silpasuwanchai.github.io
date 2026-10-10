@@ -4,7 +4,7 @@ legacy_id: 30
 category: Blogs
 ---
 
-![stress](/assets/article-images/article-30-1.jpg)
+![stress](/assets/article-images/common-mistakes-of-ph-d-master-student-1.jpg)
 
 Here I summarize some of the most common mistakes of Ph.D. students
 

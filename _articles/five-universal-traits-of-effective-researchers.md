@@ -4,7 +4,7 @@ legacy_id: 3
 category: Blogs
 ---
 
-![ein-newton](/assets/article-images/article-3-1.jpg)
+![ein-newton](/assets/article-images/five-universal-traits-of-effective-researchers-1.jpg)
 
 There are many excellent posts about what are the common traits among effective researchers. I summarize some of the critical points:
 

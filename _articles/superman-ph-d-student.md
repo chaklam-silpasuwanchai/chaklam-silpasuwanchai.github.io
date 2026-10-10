@@ -4,7 +4,7 @@ legacy_id: 22
 category: Blogs
 ---
 
-![doctor](/assets/article-images/article-22-1.jpg)
+![doctor](/assets/article-images/superman-ph-d-student-1.jpg)
 
 I heard a lot of discussion among my colleagues about what they think is a good Ph.D. student.  In this post, I summarize down some of the important characteristics of a Ph.D. student that was often talked about.  Knowing these characteristics will allow you to know what is important and strive to improve.
 

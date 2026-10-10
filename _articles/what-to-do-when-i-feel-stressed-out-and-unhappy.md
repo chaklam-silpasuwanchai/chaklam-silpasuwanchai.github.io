@@ -4,7 +4,7 @@ legacy_id: 17
 category: Blogs
 ---
 
-![ice-cream](/assets/article-images/article-17-1.jpg)
+![ice-cream](/assets/article-images/what-to-do-when-i-feel-stressed-out-and-unhappy-1.jpg)
 
 Being a Ph.D. student is not easy, especially when your lab or supervisor has high expectation of you (especially in top-tier universities).  Ph.D. life can also feel very isolated and sometimes stressful.  I heard that in many places, a Ph.D. student can only meet their professor one or two times a year, and the rest they have to figure out how to do their research, yes, it is that tough. I have experienced it myself.  There are several things from minimizing stress level such as maintaining a good work/life balance (easier said than done!), do not overcommit on too many projects, and regularly doing exercise and eating healthy foods.
 

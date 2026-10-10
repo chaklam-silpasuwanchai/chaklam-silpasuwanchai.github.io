@@ -4,7 +4,7 @@ legacy_id: 20
 category: Blogs
 ---
 
-![Skywalker](/assets/article-images/article-20-1.png)
+![Skywalker](/assets/article-images/arrogance-is-good-or-bad-1.png)
 
 I could say that I am a quite an arrogant and ambitious person, back when I was in my 20s.
 

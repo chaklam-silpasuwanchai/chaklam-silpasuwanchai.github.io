@@ -4,7 +4,7 @@ legacy_id: 35
 category: Blogs
 ---
 
-![elon](/assets/article-images/article-35-1.jpg)
+![elon](/assets/article-images/how-to-make-an-impressive-ds-resume-1.jpg)
 
 **LAYOUT**  
   
