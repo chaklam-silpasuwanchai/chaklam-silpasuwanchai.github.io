@@ -20,8 +20,9 @@ layout: null
       <h1>Chaklam Silpasuwanchai</h1>
       <div class="subtitle">Assistant Professor, Asian Institute of Technology</div>
     </header>
-    <nav aria-label="Main navigation"><a href="#news">News</a><a href="#publications">Publications</a><a
-        href="#grants">Grants</a><a href="#teaching">Teaching</a><a href="#talks">Talks</a><a href="#service">Academic
+    <nav aria-label="Main navigation"><a href="/">Home</a><a href="#news">News</a><a
+        href="#publications">Publications</a><a href="#grants">Grants</a><a href="#teaching">Teaching</a><a
+        href="#talks">Talks</a><a href="#service">Academic
         Services</a><a href="#awards">Awards</a><a href="blog.html">Blog</a></nav>
     <div class="columns">
       <aside class="profile"><img alt="Chaklam Silpasuwanchai" src="sites/default/files/inline-images/chaklam.png" />
@@ -35,20 +36,20 @@ layout: null
           <a href="https://teal2o.cs.ait.ac.th">TEAL Moodle ↗</a>
         </div>
         <section class="sidebar-blogs" aria-labelledby="sidebar-blogs-heading">
-                    <h3 id="sidebar-blogs-heading">Articles</h3>
-                    <h4>Research Tips</h4>
-                    <ul>
-                        {% for article in site.data.articles %}{% if article.category == 'Research Tips' %}
-                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-                        {% endif %}{% endfor %}
-                    </ul>
-                    <h4>Blogs</h4>
-                    <ul>
-                        {% for article in site.data.articles %}{% if article.category == 'Blogs' %}
-                        <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
-                        {% endif %}{% endfor %}
-                    </ul>
-                </section>
+          <h3 id="sidebar-blogs-heading">Articles</h3>
+          <h4>Research Tips</h4>
+          <ul>
+            {% for article in site.data.articles %}{% if article.category == 'Research Tips' %}
+            <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+            {% endif %}{% endfor %}
+          </ul>
+          <h4>Blogs</h4>
+          <ul>
+            {% for article in site.data.articles %}{% if article.category == 'Blogs' %}
+            <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>
+            {% endif %}{% endfor %}
+          </ul>
+        </section>
       </aside>
       <main class="main">
         <div class="intro">
