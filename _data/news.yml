@@ -1,185 +1,68 @@
 - date: Aug 2026
-  description: Got a project to build a Driving License Management System.
-  role: ''
-  organization: Control Data Group (CDG)
-  amount: 828,000 Baht
+  description: 'Got a project with Control Data Group (CDG) to build a Driving License Management System. (Amount: 828,000 Baht)'
 - date: Jun 2026
   description: I got a grant from Gates Foundation to work on Digital Public Infrastructure. Let's go!
-  role: ''
-  organization: ''
-  amount: ''
 - date: May 2026
-  description: Got a project to develop an integrated traffic analytics platform in Chatuchak, Bangkok.
-  role: ''
-  organization: Toyota Mobility Foundation
-  amount: 500,000 Baht
+  description: 'Got a project with Toyota Mobility Foundation to develop an integrated traffic analytics platform in Chatuchak, Bangkok. (Amount: 500,000 Baht)'
 - date: May 2026
-  description: Congrats to Deepali for her ACM Trans. Health. paper titled <a href="https://dl.acm.org/doi/10.1145/3820903">SpineXR-VQA:A Clinically-Validated Visual Question
-    Answering Dataset for Spine X-Rays</a>.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Congrats to Deepali for her ACM Trans. Health. paper titled <a href="https://dl.acm.org/doi/10.1145/3820903">SpineXR-VQA:A Clinically-Validated Visual Question Answering Dataset for Spine X-Rays</a>.
 - date: Apr 2026
-  description: Got invited to review NeurIPS. I promise I won't use AI for review! (Now I am reviewing CHI, ACL,
-    and Neurips)
-  role: ''
-  organization: ''
-  amount: ''
+  description: Got invited to review NeurIPS. I promise I won't use AI for review! (Now I am reviewing CHI, ACL, and Neurips)
 - date: Apr 2026
-  description: 'Congrats to our student Arya Shah, for publishing his ACL 2026 paper titled "<a href="https://arxiv.org/abs/2604.10733">Too
-    Nice to Tell the Truth: Quantifying Agreeableness-Driven Sycophancy in Role-Playing Language Models</a>".'
-  role: ''
-  organization: ''
-  amount: ''
+  description: 'Congrats to our student Arya Shah, for publishing his ACL 2026 paper titled "<a href="https://arxiv.org/abs/2604.10733">Too Nice to Tell the Truth: Quantifying Agreeableness-Driven Sycophancy in Role-Playing Language Models</a>".'
 - date: Mar 2026
-  description: 'Congrats to our student Mehul Parmar, for publishing his best paper award CHI 2026 paper titled "<a href="https://arxiv.org/abs/2603.22766">From
-    Overload to Convergence: Supporting Multi-Issue Human AI Negotiation with Bayesian Visualization</a>"'
-  role: ''
-  organization: ''
-  amount: ''
+  description: 'Congrats to our student Mehul Parmar, for publishing his best paper award CHI 2026 paper titled "<a href="https://arxiv.org/abs/2603.22766">From Overload to Convergence: Supporting Multi-Issue Human AI Negotiation with Bayesian Visualization</a>"'
 - date: Feb 2026
-  description: Presented<a href="https://ait.ac.th/2026/02/ait-faculty-delivers-ai-training-at-aiibs-inaugural-ai-academy-in-beijing/">
-    Advanced Prompting at AIIB, Beijing</a> with collaboration with AIAPI.  Quite huge hall with 300+ participants.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Presented<a href="https://ait.ac.th/2026/02/ait-faculty-delivers-ai-training-at-aiibs-inaugural-ai-academy-in-beijing/"> Advanced Prompting at AIIB, Beijing</a> with collaboration with AIAPI.  Quite huge hall with 300+ participants.
 - date: Aug 2025
-  description: Congrats to AIT CSIM for getting a new project grant on <a href="https://themature.co/2025/08/21/nbtc-approve-btfp-12-project/?fbclid=IwZXh0bgNhZW0CMTEAAR6L62l654h1Hrb_aBYmIHEqpbotPkrrgP1q5YZRbGcEM60DpDM67l9jlDMLRQ_aem_ESwLV18bE7EK5Cx_iBMR2A">sign
-    language by NBTC</a>.  I will be contributing to a work package on Sign2Text.  (Amount:13,303,064.49 Baht)(Duration:3 years)
-  role: ''
-  organization: ''
-  amount: ''
+  description: Congrats to AIT CSIM for getting a new project grant on <a href="https://themature.co/2025/08/21/nbtc-approve-btfp-12-project/?fbclid=IwZXh0bgNhZW0CMTEAAR6L62l654h1Hrb_aBYmIHEqpbotPkrrgP1q5YZRbGcEM60DpDM67l9jlDMLRQ_aem_ESwLV18bE7EK5Cx_iBMR2A">sign language by NBTC</a>.  I will be contributing to a work package on Sign2Text.  (Amount:13,303,064.49 Baht)(Duration:3 years)
 - date: Jul 2025
-  description: Presented <a href="https://drive.google.com/file/d/11HCSif7auK7cmHbEzXDxHfgC5R-JE6Fo/view?usp=sharing">Introduction
-    to GenAI</a> at a cybersecurity workshop organized by AsiaConnect and AI Center.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Presented <a href="https://drive.google.com/file/d/11HCSif7auK7cmHbEzXDxHfgC5R-JE6Fo/view?usp=sharing">Introduction to GenAI</a> at a cybersecurity workshop organized by AsiaConnect and AI Center.
 - date: Feb 2025
   description: Got a project with Toyota Mobility Foundation for crash analytics using LDCM + CCTV data + analysis platform.
-  role: ''
-  organization: ''
-  amount: ''
 - date: Feb 2025
   description: I am traveling to Fiji to lead some <a href="https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2024/Workshop%20on%20Digital%20Transformation%20for%20the%20Pacific/Workshop-on-Digital-Transformation-for-the-Pacific-.aspx?fbclid=IwY2xjawU1rYxleHRuA2FlbQIxMAABHTUtm8_3cFYVbCAkyAr24EchavtUiq-VL-XJkUiPSmV-d2mvZMqyy6jT4Q_aem_GHVQFbEuiaGSlxDc4KkESA">Digital Transformation workshop</a>, with collaboration with ITU.
-  role: ''
-  organization: ''
-  amount: ''
 - date: Dec 2024
-  description: I got the <a href="https://ait.ac.th/2024/12/aits-142nd-graduation-ceremony-celebrating-global-excellence-and-transformative-journeys/">best
-    teacher award (large class category)</a> at AIT.
-  role: ''
-  organization: ''
-  amount: ''
+  description: I got the <a href="https://ait.ac.th/2024/12/aits-142nd-graduation-ceremony-celebrating-global-excellence-and-transformative-journeys/">best teacher award (large class category)</a> at AIT.
 - date: Mar 2024
   description: Open my startup "<a href="https://aibrainlab.com">AI Brain Lab</a>"!  Not sure I'm ready for this...
-  role: ''
-  organization: ''
-  amount: ''
 - date: Sep 2023
   description: Congrats to Pranisaa Charnparttaravanit on her grant on <a href="https://rgj.trf.or.th/main/home/" target="_blank">Royal Golden Jubilee PhD</a> by National Research Council of Thailand (NRCT) (Amount:1,690,000 Baht) (Duration:1st Sep 2023 - 28th Feb 2026)
-  role: ''
-  organization: ''
-  amount: ''
 - date: Mar 2023
-  description: Congrats to Chanapa Pananookooln on her paper at Computational Linguistics entitled "<a href="https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00479/115845"
-    target="_blank">Comparing selective masking methods for depression detection in social media</a>".
-  role: ''
-  organization: ''
-  amount: ''
+  description: Congrats to Chanapa Pananookooln on her paper at Computational Linguistics entitled "<a href="https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00479/115845" target="_blank">Comparing selective masking methods for depression detection in social media</a>".
 - date: Apr 2022
-  description: Acquired a 14M baht project from <a href="https://www.nbtc.go.th" target="_blank">NBTC</a> to
-    work on elderly people + Raman spectroscopy + computer vision system.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Acquired a 14M baht project from <a href="https://www.nbtc.go.th" target="_blank">NBTC</a> to work on elderly people + Raman spectroscopy + computer vision system.
 - date: Feb 2021
-  description: I got accepted for young scientist grant titled <a href="https://drive.google.com/file/d/12NCKVmAPOXsSNGPCP5MdIblcQBJSfSMV/view?usp=sharing"
-    target="_blank">"การสะกดภาษาไทยผ่าน BCI ด้วยระบบ ไฮบริด SSVEP-P300</a>" by สำนักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์
-    วิจัยและนวัตกรรม (สป.อว.).
-  role: ''
-  organization: ''
-  amount: ''
+  description: I got accepted for young scientist grant titled <a href="https://drive.google.com/file/d/12NCKVmAPOXsSNGPCP5MdIblcQBJSfSMV/view?usp=sharing" target="_blank">"การสะกดภาษาไทยผ่าน BCI ด้วยระบบ ไฮบริด SSVEP-P300</a>" by สำนักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (สป.อว.).
 - date: Jun 2020
   description: 'Got a grant on BCI speller from <a href="https://www.nriis.in.th/ResearchFundListDetail_H.aspx?id=25419" target="_blank">เงินงบประมาณแผ่นดิน: ปีงบประมาณ 2563 from PMU</a>'
-  role: ''
-  organization: ''
-  amount: ''
 - date: Jan 2020
   description: Officially starting at AIT!
-  role: ''
-  organization: ''
-  amount: ''
 - date: Oct 2019
   description: Visiting my friend Dr. Nem Khan Dim, an expert in HCI+Accessibility at Yangon University!
-  role: ''
-  organization: ''
-  amount: ''
 - date: Jan 2019
-  description: Got a <a href="https://www.nstda.or.th/" target="_blank">NSTDA</a> grant in collaboration with Toray Science
-    Foundation, amounted 190,000 baht.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Got a <a href="https://www.nstda.or.th/" target="_blank">NSTDA</a> grant in collaboration with Toray Science Foundation, amounted 190,000 baht.
 - date: Dec 2018
   description: Congrats to Dr.Kavous on <a href="https://www.sciencedirect.com/science/article/pii/S0191886918306482" target="_blank">The relationship between flow proneness in everyday life and variations in the volume of gray matter in the dopaminergic system:a cross-sectional study</a> at Personality and Individual Differences
-  role: ''
-  organization: ''
-  amount: ''
 - date: Dec 2018
-  description: Just finished my class on "<a href="https://drive.google.com/open?id=1-KTFAh54ZIiNpUlIT4GloHwYgPZEQRa8" target="_blank">Introduction to Data
-    Science</a>" @ Kasetsart University. Cool bunch of students.
-  role: ''
-  organization: ''
-  amount: ''
+  description: Just finished my class on "<a href="https://drive.google.com/open?id=1-KTFAh54ZIiNpUlIT4GloHwYgPZEQRa8" target="_blank">Introduction to Data Science</a>" @ Kasetsart University. Cool bunch of students.
 - date: Oct 2018
   description: Just received a "Stamford Competitive Grant" on Brain-Computer Interfaces amounted 234,000 baht.
-  role: ''
-  organization: ''
-  amount: ''
 - date: Oct 2018
   description: Congrats to our Stamford IT program. We have won the bid on being the host for<a href="https://www.yesist12.org/" target="_blank"> IEEE YESIST12 </a>in 2019, a hackathon competition inviting universities from around the world.  Time to work!
-  role: ''
-  organization: ''
-  amount: ''
 - date: Mar 2018
   description: Congrats to Dr. Sayan and Dr. Jussi on publishing "<a href="https://ieeexplore.ieee.org/document/8317981" target="_blank">Ability-Based Optimization of Touchscreen Interactions</a>" at IEEE Pervasive Computing!
-  role: ''
-  organization: ''
-  amount: ''
 - date: Jan 2018
   description: Our SIG proposal got accepted -> <a href="https://dl.acm.org/citation.cfm?id=3185364" target="_blank">Approaching Engagement towards Human-Engaged Computing</a>
-  role: ''
-  organization: ''
-  amount: ''
 - date: Jan 2018
   description: Our book chapter "<a href="http://onlinelibrary.wiley.com/doi/10.1002/9781118976005.ch29/summary" target="_blank">A Quick Look on Game Engagement Theories</a>" has been published.
-  role: ''
-  organization: ''
-  amount: ''
 - date: Apr 2017
   description: Congrats to Kavous for getting the travel fund to CHI 2017 as well - from the <a href="http://www.candc.or.jp/en/grants.html" target="_blank">NEC C&amp; C</a>, for his paper entitled "A Framework for Interactive Meditation Using Attention Regulation".
-  role: ''
-  organization: ''
-  amount: ''
 - date: Apr 2017
   description: Congrats to Mahmoud for getting the travel fund to CHI 2017 - <a href="http://www.sigchi.org/conferences/funding/gary-marsden-student-development-fund" target="_blank">Gary Marsden Student Development Fund</a>, for the paper entitled "Understanding the Role of Human Senses in Interactive Meditation". Enjoy CHI!
-  role: ''
-  organization: ''
-  amount: ''
 - date: Mar 2017
   description: I have relocated from the Kochi University of Technology to <a href="http://stamford.edu/" target="_blank">Stamford International University</a> (STIU), Thailand. My status at KUT changed from "Assistant Professor" to "Visiting Researchers".
-  role: ''
-  organization: ''
-  amount: ''
 - date: Dec 2016
-  description: Congrats to our team at <a href="https://xrenlab.com" target="_blank">Center
-    for Human-Engaged Computing, KUT</a> for two full papers, two notes, one LBW and one workshop at this <a href="https://chi2017.acm.org/" target="_blank">CHI 2017</a>
-  role: ''
-  organization: ''
-  amount: ''
+  description: Congrats to our team at <a href="https://xrenlab.com" target="_blank">Center for Human-Engaged Computing, KUT</a> for two full papers, two notes, one LBW and one workshop at this <a href="https://chi2017.acm.org/" target="_blank">CHI 2017</a>
 - date: Mar 2015
   description: Received a <a href="https://www.jsps.go.jp/english/e-grants/" target="_blank">Grant-in-Aid for Scientific Research by MEXT (Ministry of Education, Culture, Sports, </a><a href="https://www.jsps.go.jp/english/e-grants/" target="_blank">Science</a><a href="https://www.jsps.go.jp/english/e-grants/" target="_blank">, and Technology), Japan</a> for the topic "Investigating Cognitive Enhancement of Elderly People by Using Motion Video Games"
-  role: ''
-  organization: ''
-  amount: ''
