@@ -1,9 +1,19 @@
+- date: Feb 2026
+  description: <a href="https://ait.ac.th/2026/02/ait-faculty-delivers-ai-training-at-aiibs-inaugural-ai-academy-in-beijing/">Advanced Prompting</a>
+  role: ''
+  organization: AIIB AI Academy, Beijing (with AIAPI)
+  amount: ''
 - date: Jan 2026
   description: '<a href="https://drive.google.com/file/d/1cYhMvcirRFRNoXdnbW9qRAo-Vl0nUvJz/view?usp=sharing">Data
-    Science and AI: Evolution, Applications, and Future Directions</a>" and <a href="https://drive.google.com/file/d/1v_Il2H9uOou918Wmhs4XM6iVYifZC0Al/view?usp=sharing">Workshop</a>
+    Science and AI: Evolution, Applications, and Future Directions</a> and <a href="https://drive.google.com/file/d/1v_Il2H9uOou918Wmhs4XM6iVYifZC0Al/view?usp=sharing">Workshop</a>
     on how machine learning works'
   role: ''
   organization: UNITAR
+  amount: ''
+- date: Jul 2025
+  description: <a href="https://drive.google.com/file/d/11HCSif7auK7cmHbEzXDxHfgC5R-JE6Fo/view?usp=sharing">Introduction to GenAI</a>
+  role: ''
+  organization: Cybersecurity Workshop, AsiaConnect and AI Center
   amount: ''
 - date: Feb 2025
   description: <a href="https://drive.google.com/file/d/1pkQWWLobygMMVH7O80-vGBiLO0urBmyS/view?usp=sharing">Deploying
@@ -13,9 +23,9 @@
   amount: ''
 - date: Jan 2025
   description: <a href="https://drive.google.com/file/d/1G82wDaytemRwTyIaQx3bdJd58NMo9uSP/view?usp=sharing">Are
-    we missing out opportunities in this AI era</a>"?
+    we missing out opportunities in this AI era?</a>
   role: ''
-  organization: Viriya and Thanachart Insurance
+  organization: Viriyah and Thanachart Insurance
   amount: ''
 - date: Jan 2025
   description: <a href="https://drive.google.com/file/d/1eH6B96POYTcSnFbdnZvCNmQ-P0honrw1/view?usp=sharing">ESG
@@ -31,13 +41,13 @@
   amount: ''
 - date: Oct 2024
   description: <a href="https://drive.google.com/file/d/1mACotmlPNy1IhjSrCHrfSgxjWEQMkUaT/view?usp=sharing">Will
-    AI Replace Humans</a>" (<a href="https://youtu.be/Uc3FlvE0EUk">video</a>)
+    AI Replace Humans?</a> (<a href="https://youtu.be/Uc3FlvE0EUk">video</a>)
   role: ''
   organization: South Eastern University of Sri Lanka
   amount: ''
 - date: Aug 2024
   description: <a href="https://drive.google.com/file/d/1a7Ldqy0wW6ONm0LJ2xOJHnuCayVSHpcx/view?usp=sharing">Large
-    Language Model</a>s
+    Language Models</a>
   role: ''
   organization: AI Summer Camp, AIT
   amount: ''

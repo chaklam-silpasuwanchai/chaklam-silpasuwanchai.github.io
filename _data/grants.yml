@@ -14,7 +14,7 @@
   organization: Toyota Mobility Foundation
   amount: 500,000 Baht
 - date: Jun 2024 - Jun 2027
-  description: <p><strong>Black Spots Improvement in Chachoengsao </strong></p>
+  description: <p><strong>Black Spots Improvement in Chachoengsao</strong> (with Dr. Kunnawee)</p>
   role: Co-PI
   organization: Toyota Mobility Foundation
   amount: 3,984,814 Baht
@@ -23,14 +23,14 @@
   role: Co-PI
   organization: Thailand Fundamental Fund
   amount: 2,000,000 Baht
-- date: Oct 2025 - Sep 2027
-  description: <p><strong>โครงการพัฒนาภูมิปัญญาภาษามือและการนำไปประยุกต์ใช้ </strong></p>
+- date: Oct 2025 - Sep 2028
+  description: <p><strong>โครงการพัฒนาภูมิปัญญาภาษามือและการนำไปประยุกต์ใช้</strong></p>
   role: Co-PI
   organization: Office of the National Broadcasting and Telecommunications Commission
   amount: 13,303,064.49 Baht
 - date: 1st Sep 2023 - 28th Feb 2026
-  description: <p><strong>Developing Question-Answering System using Large Language Models for Thai Applications</strong></p>
-  role: PI
+  description: <p><strong>Developing Question-Answering System using Large Language Models for Thai Applications</strong> (Royal Golden Jubilee PhD grant of Pranisaa Charnparttaravanit)</p>
+  role: Supervisor
   organization: National Research Council of Thailand
   amount: 1,690,000 Baht
 - date: Jun 2022 - Jun 2025
@@ -54,7 +54,7 @@
   organization: Thailand Toray Science
   amount: 190,000 Baht
 - date: September 15, 2018 - September 14, 2019
-  description: <p><strong>Developing Brain-Computer Interfaces Using P300</strong>, .</p>
+  description: <p><strong>Developing Brain-Computer Interfaces Using P300</strong></p>
   role: PI
   organization: Stamford Competitive Internal Grants
   amount: 234,000 Baht
@@ -64,8 +64,8 @@
   role: PI
   organization: Grant-in-Aid for Scientific Research by MEXT
   amount: 4,992,000 JPY
-- date: Apr 1, 2015 — Mar 31, 2017
-  description: <p><strong>User Interface Design for the Ageing Population</strong>. </p>
+- date: Apr 1, 2015 - Mar 31, 2017
+  description: <p><strong>User Interface Design for the Ageing Population</strong></p>
   role: Co-PI
   organization: Japan-Finland Collaborative Research Projects by JST, AF and Tekes
   amount: 18,000,000 JPY
