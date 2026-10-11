@@ -1,8 +1,18 @@
+- date: Aug 2026
+  description: Got a project to build a Driving License Management System.
+  role: ''
+  organization: Control Data Group (CDG)
+  amount: 828,000 Baht
 - date: Jun 2026
   description: I got a grant from Gates Foundation to work on Digital Public Infrastructure. Let's go!
   role: ''
   organization: ''
   amount: ''
+- date: May 2026
+  description: Got a project to develop an integrated traffic analytics platform in Chatuchak, Bangkok.
+  role: ''
+  organization: Toyota Mobility Foundation
+  amount: 500,000 Baht
 - date: May 2026
   description: Congrats to Deepali for her ACM Trans. Health. paper titled <a href="https://dl.acm.org/doi/10.1145/3820903">SpineXR-VQA:A Clinically-Validated Visual Question
     Answering Dataset for Spine X-Rays</a>.
